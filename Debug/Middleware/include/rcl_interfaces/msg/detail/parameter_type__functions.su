@@ -1,0 +1,8 @@
+parameter_type__functions.c:13:1:rcl_interfaces__msg__ParameterType__init	16	static
+parameter_type__functions.c:23:1:rcl_interfaces__msg__ParameterType__fini	16	static
+parameter_type__functions.c:32:1:rcl_interfaces__msg__ParameterType__create	16	static
+parameter_type__functions.c:48:1:rcl_interfaces__msg__ParameterType__destroy	16	static
+parameter_type__functions.c:58:1:rcl_interfaces__msg__ParameterType__Sequence__init	32	static
+parameter_type__functions.c:93:1:rcl_interfaces__msg__ParameterType__Sequence__fini	24	static
+parameter_type__functions.c:117:1:rcl_interfaces__msg__ParameterType__Sequence__create	24	static
+parameter_type__functions.c:132:1:rcl_interfaces__msg__ParameterType__Sequence__destroy	16	static

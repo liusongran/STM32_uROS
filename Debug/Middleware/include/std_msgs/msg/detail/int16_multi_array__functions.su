@@ -1,0 +1,8 @@
+int16_multi_array__functions.c:19:1:std_msgs__msg__Int16MultiArray__init	16	static
+int16_multi_array__functions.c:38:1:std_msgs__msg__Int16MultiArray__fini	16	static
+int16_multi_array__functions.c:50:1:std_msgs__msg__Int16MultiArray__create	16	static
+int16_multi_array__functions.c:66:1:std_msgs__msg__Int16MultiArray__destroy	16	static
+int16_multi_array__functions.c:76:1:std_msgs__msg__Int16MultiArray__Sequence__init	32	static
+int16_multi_array__functions.c:111:1:std_msgs__msg__Int16MultiArray__Sequence__fini	24	static
+int16_multi_array__functions.c:135:1:std_msgs__msg__Int16MultiArray__Sequence__create	24	static
+int16_multi_array__functions.c:150:1:std_msgs__msg__Int16MultiArray__Sequence__destroy	16	static

@@ -1,0 +1,2 @@
+time.c:15:9:uxr_millis	8	static
+time.c:21:9:uxr_nanos	32	static

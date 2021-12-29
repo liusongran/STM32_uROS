@@ -1,0 +1,2 @@
+common_create_entities.c:12:10:uxr_buffer_delete_entity	88	static
+common_create_entities.c:40:10:uxr_common_create_entity	80	static

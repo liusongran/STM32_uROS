@@ -1,0 +1,8 @@
+byte__functions.c:13:1:std_msgs__msg__Byte__init	16	static
+byte__functions.c:23:1:std_msgs__msg__Byte__fini	16	static
+byte__functions.c:32:1:std_msgs__msg__Byte__create	16	static
+byte__functions.c:48:1:std_msgs__msg__Byte__destroy	16	static
+byte__functions.c:58:1:std_msgs__msg__Byte__Sequence__init	32	static
+byte__functions.c:93:1:std_msgs__msg__Byte__Sequence__fini	24	static
+byte__functions.c:117:1:std_msgs__msg__Byte__Sequence__create	24	static
+byte__functions.c:132:1:std_msgs__msg__Byte__Sequence__destroy	16	static

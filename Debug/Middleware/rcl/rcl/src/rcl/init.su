@@ -1,0 +1,3 @@
+stdatomic_helper.h:169:1:rcutils_atomic_fetch_add_uint64_t	40	static
+init.c:52:1:rcl_init	208	static
+init.c:247:1:rcl_shutdown	32	static

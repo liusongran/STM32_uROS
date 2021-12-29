@@ -1,0 +1,2 @@
+stream_id.c:11:13:uxr_stream_id	24	static
+stream_id.c:39:13:uxr_stream_id_from_raw	24	static

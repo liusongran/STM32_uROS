@@ -1,0 +1,5 @@
+rmw_node.c:27:14:create_node	56	static
+rmw_node.c:127:1:rmw_create_node	32	static
+rmw_node.c:149:11:rmw_destroy_node	48	static
+rmw_node.c:224:1:rmw_node_assert_liveliness	16	static
+rmw_node.c:233:1:rmw_node_get_graph_guard_condition	32	static

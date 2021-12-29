@@ -1,0 +1,8 @@
+color_rgba__functions.c:13:1:std_msgs__msg__ColorRGBA__init	16	static
+color_rgba__functions.c:26:1:std_msgs__msg__ColorRGBA__fini	16	static
+color_rgba__functions.c:38:1:std_msgs__msg__ColorRGBA__create	16	static
+color_rgba__functions.c:54:1:std_msgs__msg__ColorRGBA__destroy	16	static
+color_rgba__functions.c:64:1:std_msgs__msg__ColorRGBA__Sequence__init	32	static
+color_rgba__functions.c:99:1:std_msgs__msg__ColorRGBA__Sequence__fini	24	static
+color_rgba__functions.c:123:1:std_msgs__msg__ColorRGBA__Sequence__create	24	static
+color_rgba__functions.c:138:1:std_msgs__msg__ColorRGBA__Sequence__destroy	16	static

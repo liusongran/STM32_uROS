@@ -1,0 +1,14 @@
+common_reliable_stream_internal.h:33:24:uxr_get_reliable_buffer	16	static
+common_reliable_stream_internal.h:48:24:uxr_get_reliable_buffer_history_position	16	static
+common_reliable_stream_internal.h:55:22:uxr_get_reliable_buffer_size	24	static
+common_reliable_stream_internal.h:67:20:uxr_set_reliable_buffer_size	32	static
+input_reliable_stream.c:23:6:uxr_init_input_reliable_stream	24	static
+input_reliable_stream.c:42:6:uxr_reset_input_reliable_stream	24	static
+input_reliable_stream.c:54:6:uxr_receive_reliable_message	40	static
+input_reliable_stream.c:107:6:uxr_next_input_reliable_buffer_available	40	static
+input_reliable_stream.c:142:6:uxr_process_heartbeat	16	static
+input_reliable_stream.c:156:6:uxr_is_input_up_to_date	16	static
+input_reliable_stream.c:162:10:uxr_compute_acknack	40	static
+input_reliable_stream.c:185:6:check_last_fragment	32	static
+input_reliable_stream.c:214:11:uxr_get_first_unacked	32	static
+input_reliable_stream.c:231:6:on_full_input_buffer	32	static

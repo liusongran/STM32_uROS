@@ -1,0 +1,4 @@
+serial_transport_rtems_bsd_net.c:7:6:uxr_init_serial_platform	40	static
+serial_transport_rtems_bsd_net.c:29:6:uxr_close_serial_platform	24	static
+serial_transport_rtems_bsd_net.c:36:8:uxr_write_serial_data_platform	40	static
+serial_transport_rtems_bsd_net.c:58:8:uxr_read_serial_data_platform	72	static

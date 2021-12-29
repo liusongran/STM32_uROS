@@ -1,0 +1,11 @@
+type_utilities.c:47:8:get_static_memory	24	static
+type_utilities.c:59:42:get_configuration	48	static
+type_utilities.c:85:6:print_type_info	656	static
+type_utilities.c:140:26:micro_ros_utilities_type_info	64	static
+type_utilities.c:170:8:handle_message_memory	216	static
+type_utilities.c:288:8:get_longest_member_name	104	static
+type_utilities.c:316:8:micro_ros_utilities_get_dynamic_size	128	static
+type_utilities.c:349:8:micro_ros_utilities_get_static_size	128	static
+type_utilities.c:385:6:micro_ros_utilities_create_message_memory	128	static
+type_utilities.c:422:6:micro_ros_utilities_create_static_message_memory	128	static
+type_utilities.c:470:6:micro_ros_utilities_destroy_message_memory	128	static

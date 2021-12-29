@@ -1,0 +1,2 @@
+node.c:23:1:rclc_node_init_default	80	static
+node.c:54:1:rclc_node_init_with_options	56	static

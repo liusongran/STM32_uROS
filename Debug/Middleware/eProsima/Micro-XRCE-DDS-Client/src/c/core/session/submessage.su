@@ -1,0 +1,3 @@
+submessage.c:7:6:uxr_buffer_submessage_header	16	static
+submessage.c:21:6:uxr_read_submessage_header	32	static
+submessage.c:41:8:uxr_submessage_padding	16	static

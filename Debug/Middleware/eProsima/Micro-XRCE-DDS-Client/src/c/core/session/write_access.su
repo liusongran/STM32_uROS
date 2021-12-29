@@ -1,0 +1,10 @@
+common_reliable_stream_internal.h:33:24:uxr_get_reliable_buffer	16	static
+common_reliable_stream_internal.h:42:22:uxr_get_reliable_buffer_capacity	16	static
+common_reliable_stream_internal.h:55:22:uxr_get_reliable_buffer_size	24	static
+common_reliable_stream_internal.h:67:20:uxr_set_reliable_buffer_size	32	static
+write_access.c:21:10:uxr_buffer_request	88	static
+write_access.c:50:10:uxr_buffer_reply	88	static
+write_access.c:81:10:uxr_buffer_topic	88	static
+write_access.c:110:10:uxr_prepare_output_stream	64	static
+write_access.c:148:6:on_full_output_buffer_fragmented	88	static
+write_access.c:205:10:uxr_prepare_output_stream_fragmented	144	static

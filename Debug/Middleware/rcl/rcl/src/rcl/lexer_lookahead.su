@@ -1,0 +1,8 @@
+lexer_lookahead.c:37:1:rcl_get_zero_initialized_lexer_lookahead2	4	static
+lexer_lookahead.c:46:1:rcl_lexer_lookahead2_init	24	static
+lexer_lookahead.c:80:1:rcl_lexer_lookahead2_fini	16	static
+lexer_lookahead.c:95:1:rcl_lexer_lookahead2_peek	24	static
+lexer_lookahead.c:129:1:rcl_lexer_lookahead2_peek2	32	static
+lexer_lookahead.c:166:1:rcl_lexer_lookahead2_accept	24	static
+lexer_lookahead.c:216:1:rcl_lexer_lookahead2_expect	32	static
+lexer_lookahead.c:247:1:rcl_lexer_lookahead2_get_text	16	static

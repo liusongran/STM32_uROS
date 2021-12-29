@@ -1,0 +1,6 @@
+logging.c:57:1:rcl_logging_configure_with_output_handler	64	static
+logging.c:112:1:rcl_logging_configure	16	static
+logging.c:118:11:rcl_logging_fini	16	static
+logging.c:133:6:rcl_logging_rosout_enabled	4	static
+logging.c:139:1:rcl_logging_multiple_output_handler	56	static
+logging.c:153:1:rcl_logging_ext_lib_output_handler	2176	static

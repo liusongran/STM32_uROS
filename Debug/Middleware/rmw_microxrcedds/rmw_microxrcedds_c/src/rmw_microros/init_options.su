@@ -1,0 +1,4 @@
+init_options.c:23:11:rmw_uros_init_options	32	static
+init_options.c:56:11:rmw_uros_options_set_serial_device	16	static
+init_options.c:82:11:rmw_uros_options_set_udp_address	24	static
+init_options.c:118:11:rmw_uros_options_set_client_key	16	static

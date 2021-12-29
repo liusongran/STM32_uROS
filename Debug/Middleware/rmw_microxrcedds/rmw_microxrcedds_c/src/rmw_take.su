@@ -1,0 +1,9 @@
+rmw_take.c:22:1:rmw_take	32	static
+rmw_take.c:32:1:rmw_take_with_info	72	static
+rmw_take.c:94:1:rmw_take_sequence	48	static
+rmw_take.c:136:1:rmw_take_serialized_message	24	static
+rmw_take.c:151:1:rmw_take_serialized_message_with_info	24	static
+rmw_take.c:168:1:rmw_take_loaned_message	24	static
+rmw_take.c:184:1:rmw_take_loaned_message_with_info	24	static
+rmw_take.c:202:1:rmw_return_loaned_message_from_subscription	16	static
+rmw_take.c:214:1:rmw_take_event	24	static

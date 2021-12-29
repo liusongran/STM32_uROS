@@ -1,0 +1,12 @@
+filesystem.c:60:1:rcutils_get_cwd	16	static
+filesystem.c:85:1:rcutils_is_directory	16	static
+filesystem.c:105:1:rcutils_is_file	16	static
+filesystem.c:125:1:rcutils_exists	16	static
+filesystem.c:141:1:rcutils_is_readable	16	static
+filesystem.c:164:1:rcutils_is_writable	16	static
+filesystem.c:187:1:rcutils_is_readable_and_writable	16	static
+filesystem.c:212:1:rcutils_join_path	16	static
+filesystem.c:239:1:rcutils_to_native_path	16	static
+filesystem.c:258:1:rcutils_mkdir	16	static
+filesystem.c:296:1:rcutils_calculate_directory_size	16	static
+filesystem.c:356:1:rcutils_get_file_size	16	static

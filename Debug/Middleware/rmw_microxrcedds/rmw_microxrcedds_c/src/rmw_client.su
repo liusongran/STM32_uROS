@@ -1,0 +1,2 @@
+rmw_client.c:30:1:rmw_create_client	112	static
+rmw_client.c:187:1:rmw_destroy_client	32	static

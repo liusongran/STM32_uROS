@@ -1,0 +1,7 @@
+parse.c:33:8:get_value	64	static
+parse.c:172:15:parse_value	96	static
+parse.c:410:15:parse_key	112	static
+parse.c:569:15:parse_file_events	216	static
+parse.c:738:15:parse_value_events	176	static
+parse.c:794:15:find_parameter	64	static
+parse.c:830:15:find_node	64	static

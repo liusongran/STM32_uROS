@@ -1,0 +1,4 @@
+add_to_arrays.c:43:15:add_val_to_bool_arr	24	static
+add_to_arrays.c:59:15:add_val_to_int_arr	24	static
+add_to_arrays.c:75:15:add_val_to_double_arr	24	static
+add_to_arrays.c:91:15:add_val_to_string_arr	24	static

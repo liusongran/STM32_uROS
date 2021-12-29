@@ -1,0 +1,7 @@
+create_entities_ref.c:19:10:uxr_buffer_create_participant_ref	576	static
+create_entities_ref.c:36:10:uxr_buffer_create_topic_ref	576	static
+create_entities_ref.c:51:10:uxr_buffer_create_datawriter_ref	576	static
+create_entities_ref.c:66:10:uxr_buffer_create_datareader_ref	576	static
+create_entities_ref.c:81:10:uxr_buffer_create_requester_ref	576	static
+create_entities_ref.c:96:10:uxr_buffer_create_replier_ref	576	static
+create_entities_ref.c:115:17:create_entity_ref	32	static

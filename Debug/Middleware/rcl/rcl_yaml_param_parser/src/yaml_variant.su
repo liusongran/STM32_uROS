@@ -1,0 +1,2 @@
+yaml_variant.c:63:6:rcl_yaml_variant_fini	16	static
+yaml_variant.c:113:6:rcl_yaml_variant_copy	80	static
