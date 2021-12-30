@@ -1,0 +1,13 @@
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/session_info.c:28:6:uxr_init_session_info	24	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/session_info.c:42:6:uxr_buffer_create_session	72	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/session_info.c:71:6:uxr_buffer_delete_session	32	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/session_info.c:89:6:uxr_read_create_session_status	48	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/session_info.c:98:6:uxr_read_delete_session_status	32	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/session_info.c:113:6:uxr_stamp_create_session_header	56	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/session_info.c:123:6:uxr_stamp_session_header	72	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/session_info.c:135:6:uxr_read_session_header	40	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/session_info.c:160:9:uxr_session_header_offset	16	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/session_info.c:166:10:uxr_init_base_object_request	32	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/session_info.c:180:6:uxr_parse_base_object_request	24	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/session_info.c:193:17:generate_request_id	24	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/session_info.c:202:13:process_delete_session_status	16	static

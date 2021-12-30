@@ -1,0 +1,2 @@
+../Middleware/rmw_microxrcedds/rmw_guard_condition.c:22:1:rmw_create_guard_condition	24	static
+../Middleware/rmw_microxrcedds/rmw_guard_condition.c:44:1:rmw_destroy_guard_condition	24	static

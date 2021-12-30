@@ -1,0 +1,6 @@
+../Middleware/rcl/security.c:29:1:rcl_get_security_options_from_environment	40	static
+../Middleware/rcl/security.c:67:1:rcl_security_enabled	24	static
+../Middleware/rcl/security.c:87:1:rcl_get_enforcement_policy	24	static
+../Middleware/rcl/security.c:107:8:exact_match_lookup	64	static
+../Middleware/rcl/security.c:132:1:dupenv	48	static
+../Middleware/rcl/security.c:149:8:rcl_get_secure_root	32	static

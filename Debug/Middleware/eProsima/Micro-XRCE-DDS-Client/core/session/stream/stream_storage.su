@@ -1,0 +1,11 @@
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/stream/stream_storage.c:11:6:uxr_init_stream_storage	16	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/stream/stream_storage.c:20:6:uxr_reset_stream_storage	32	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/stream/stream_storage.c:44:13:uxr_add_output_best_effort_buffer	40	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/stream/stream_storage.c:57:13:uxr_add_output_reliable_buffer	48	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/stream/stream_storage.c:71:13:uxr_add_input_best_effort_buffer	32	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/stream/stream_storage.c:81:13:uxr_add_input_reliable_buffer	48	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/stream/stream_storage.c:95:28:uxr_get_output_best_effort_stream	16	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/stream/stream_storage.c:106:26:uxr_get_output_reliable_stream	16	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/stream/stream_storage.c:117:27:uxr_get_input_best_effort_stream	16	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/stream/stream_storage.c:128:25:uxr_get_input_reliable_stream	16	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/stream/stream_storage.c:139:6:uxr_output_streams_confirmed	24	static

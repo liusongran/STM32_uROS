@@ -1,0 +1,8 @@
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/create_entities_bin.c:13:10:uxr_buffer_create_participant_bin	624	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/create_entities_bin.c:45:10:uxr_buffer_create_topic_bin	624	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/create_entities_bin.c:76:10:uxr_buffer_create_publisher_bin	1176	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/create_entities_bin.c:101:10:uxr_buffer_create_subscriber_bin	1176	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/create_entities_bin.c:126:10:uxr_buffer_create_datawriter_bin	664	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/create_entities_bin.c:190:10:uxr_buffer_create_datareader_bin	672	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/create_entities_bin.c:255:10:uxr_buffer_create_requester_bin	632	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/create_entities_bin.c:295:10:uxr_buffer_create_replier_bin	632	static

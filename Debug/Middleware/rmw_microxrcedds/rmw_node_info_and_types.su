@@ -1,0 +1,5 @@
+../Middleware/rmw_microxrcedds/rmw_node_info_and_types.c:31:1:__rmw_get_entity_names_and_types_by_node	88	static
+../Middleware/rmw_microxrcedds/rmw_node_info_and_types.c:156:1:rmw_get_publisher_names_and_types_by_node	40	static
+../Middleware/rmw_microxrcedds/rmw_node_info_and_types.c:187:1:rmw_get_subscriber_names_and_types_by_node	40	static
+../Middleware/rmw_microxrcedds/rmw_node_info_and_types.c:218:1:rmw_get_service_names_and_types_by_node	40	static
+../Middleware/rmw_microxrcedds/rmw_node_info_and_types.c:247:1:rmw_get_client_names_and_types_by_node	40	static

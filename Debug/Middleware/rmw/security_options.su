@@ -1,0 +1,5 @@
+../Middleware/rmw/security_options.c:23:1:rmw_get_zero_initialized_security_options	24	static
+../Middleware/rmw/security_options.c:30:1:rmw_get_default_security_options	24	static
+../Middleware/rmw/security_options.c:40:1:rmw_security_options_copy	48	static
+../Middleware/rmw/security_options.c:61:1:rmw_security_options_set_root_path	48	static
+../Middleware/rmw/security_options.c:80:1:rmw_security_options_fini	32	static

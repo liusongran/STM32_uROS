@@ -1,0 +1,2 @@
+../Middleware/rcl/expand_topic_name.c:44:1:rcl_expand_topic_name	120	static
+../Middleware/rcl/expand_topic_name.c:222:1:rcl_get_default_topic_name_substitutions	16	static

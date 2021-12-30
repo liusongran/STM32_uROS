@@ -1,0 +1,7 @@
+../Middleware/eProsima/Micro-XRCE-DDS-Client/profile/matching/matching.c:16:6:hash_string	40	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/profile/matching/matching.c:42:6:find_tag_xml	40	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/profile/matching/matching.c:76:6:find_tag_property	40	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/profile/matching/matching.c:112:6:uxr_generate_hash_from_xml	232	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/profile/matching/matching.c:220:6:uxr_generate_hash_from_ref	16	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/profile/matching/matching.c:228:6:uxr_generate_hash_from_strings	36	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/profile/matching/matching.c:249:6:uxr_match_endpoint_qosbinary	24	static

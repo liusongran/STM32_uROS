@@ -1,0 +1,3 @@
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/stream/seq_num.c:10:11:uxr_seq_num_add	16	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/stream/seq_num.c:17:11:uxr_seq_num_sub	16	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/stream/seq_num.c:26:5:uxr_seq_num_cmp	24	static

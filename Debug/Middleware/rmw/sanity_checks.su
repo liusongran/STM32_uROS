@@ -1,0 +1,1 @@
+../Middleware/rmw/sanity_checks.c:26:1:rmw_check_zero_rmw_string_array	16	static

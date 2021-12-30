@@ -1,0 +1,10 @@
+../Middleware/rmw/qos_string_conversions.c:19:1:rmw_qos_policy_kind_to_str	16	static
+../Middleware/rmw/qos_string_conversions.c:47:1:rmw_qos_durability_policy_to_str	16	static
+../Middleware/rmw/qos_string_conversions.c:63:1:rmw_qos_history_policy_to_str	16	static
+../Middleware/rmw/qos_string_conversions.c:79:1:rmw_qos_liveliness_policy_to_str	16	static
+../Middleware/rmw/qos_string_conversions.c:95:1:rmw_qos_reliability_policy_to_str	16	static
+../Middleware/rmw/qos_string_conversions.c:114:1:rmw_qos_policy_kind_from_str	16	static
+../Middleware/rmw/qos_string_conversions.c:148:1:rmw_qos_durability_policy_from_str	16	static
+../Middleware/rmw/qos_string_conversions.c:164:1:rmw_qos_history_policy_from_str	16	static
+../Middleware/rmw/qos_string_conversions.c:180:1:rmw_qos_liveliness_policy_from_str	16	static
+../Middleware/rmw/qos_string_conversions.c:196:1:rmw_qos_reliability_policy_from_str	16	static

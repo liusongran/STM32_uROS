@@ -1,0 +1,8 @@
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/read_access.c:61:10:uxr_buffer_request_data	104	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/read_access.c:105:10:uxr_buffer_cancel_data	48	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/read_access.c:122:6:read_submessage_format	32	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/read_access.c:158:13:read_format_data	136	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/read_access.c:256:6:read_format_sample	24	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/read_access.c:268:6:read_format_data_seq	24	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/read_access.c:280:6:read_format_sample_seq	24	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/read_access.c:292:6:read_format_packed_samples	24	static

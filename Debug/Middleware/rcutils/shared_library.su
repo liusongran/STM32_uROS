@@ -1,0 +1,7 @@
+../Middleware/rcutils/shared_library.c:52:1:rcutils_get_zero_initialized_shared_library	80	static
+../Middleware/rcutils/shared_library.c:62:1:rcutils_load_shared_library	16	static
+../Middleware/rcutils/shared_library.c:113:1:rcutils_get_symbol	24	static
+../Middleware/rcutils/shared_library.c:148:1:rcutils_has_symbol	24	static
+../Middleware/rcutils/shared_library.c:168:1:rcutils_unload_shared_library	56	static
+../Middleware/rcutils/shared_library.c:198:1:rcutils_get_platform_library_name	32	static
+../Middleware/rcutils/shared_library.c:256:1:rcutils_is_shared_library_loaded	16	static

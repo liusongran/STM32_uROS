@@ -1,0 +1,6 @@
+../Middleware/rcutils/string_array.c:29:1:rcutils_get_zero_initialized_string_array	48	static
+../Middleware/rcutils/string_array.c:40:1:rcutils_string_array_init	32	static
+../Middleware/rcutils/string_array.c:67:1:rcutils_string_array_fini	24	static
+../Middleware/rcutils/string_array.c:98:1:rcutils_string_array_cmp	40	static
+../Middleware/rcutils/string_array.c:146:1:rcutils_string_array_resize	80	static
+../Middleware/rcutils/string_array.c:202:1:rcutils_string_array_sort_compare	24	static

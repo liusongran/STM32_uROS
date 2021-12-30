@@ -1,0 +1,2 @@
+../Middleware/rmw_microxrcedds/rmw_microros/custom_transport.c:25:11:rmw_uros_set_custom_transport	24	static
+../Middleware/rmw_microxrcedds/rmw_microros/custom_transport.c:51:11:rmw_uros_options_set_custom_transport	24	static

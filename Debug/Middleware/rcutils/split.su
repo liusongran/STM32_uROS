@@ -1,0 +1,2 @@
+../Middleware/rcutils/split.c:31:1:rcutils_split	88	static
+../Middleware/rcutils/split.c:125:1:rcutils_split_last	96	static

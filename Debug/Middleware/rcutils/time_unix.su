@@ -1,0 +1,2 @@
+../Middleware/rcutils/time_unix.c:49:1:rcutils_system_time_now	56	static
+../Middleware/rcutils/time_unix.c:76:1:rcutils_steady_time_now	56	static

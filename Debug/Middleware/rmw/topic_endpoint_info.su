@@ -1,0 +1,13 @@
+../Middleware/rmw/topic_endpoint_info.c:23:1:rmw_get_zero_initialized_topic_endpoint_info	136	static
+../Middleware/rmw/topic_endpoint_info.c:37:1:_rmw_topic_endpoint_info_fini_str	16	static
+../Middleware/rmw/topic_endpoint_info.c:47:1:_rmw_topic_endpoint_info_fini_node_name	16	static
+../Middleware/rmw/topic_endpoint_info.c:55:1:_rmw_topic_endpoint_info_fini_node_namespace	16	static
+../Middleware/rmw/topic_endpoint_info.c:63:1:_rmw_topic_endpoint_info_fini_topic_type	16	static
+../Middleware/rmw/topic_endpoint_info.c:71:1:rmw_topic_endpoint_info_fini	152	static
+../Middleware/rmw/topic_endpoint_info.c:106:1:_rmw_topic_endpoint_info_copy_str	40	static
+../Middleware/rmw/topic_endpoint_info.c:138:1:rmw_topic_endpoint_info_set_topic_type	24	static
+../Middleware/rmw/topic_endpoint_info.c:153:1:rmw_topic_endpoint_info_set_node_name	24	static
+../Middleware/rmw/topic_endpoint_info.c:168:1:rmw_topic_endpoint_info_set_node_namespace	24	static
+../Middleware/rmw/topic_endpoint_info.c:186:1:rmw_topic_endpoint_info_set_endpoint_type	16	static
+../Middleware/rmw/topic_endpoint_info.c:203:1:rmw_topic_endpoint_info_set_gid	24	static
+../Middleware/rmw/topic_endpoint_info.c:224:1:rmw_topic_endpoint_info_set_qos_profile	16	static

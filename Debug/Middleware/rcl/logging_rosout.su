@@ -1,0 +1,5 @@
+../Middleware/rcl/logging_rosout.c:87:11:rcl_logging_rosout_init	48	static
+../Middleware/rcl/logging_rosout.c:108:11:rcl_logging_rosout_fini	40	static
+../Middleware/rcl/logging_rosout.c:144:11:rcl_logging_rosout_init_publisher_for_node	168	static
+../Middleware/rcl/logging_rosout.c:201:11:rcl_logging_rosout_fini_publisher_for_node	40	static
+../Middleware/rcl/logging_rosout.c:231:6:rcl_logging_rosout_output_handler	1128	static

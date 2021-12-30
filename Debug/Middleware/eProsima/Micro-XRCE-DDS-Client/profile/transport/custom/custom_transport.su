@@ -1,0 +1,6 @@
+../Middleware/eProsima/Micro-XRCE-DDS-Client/profile/transport/custom/custom_transport.c:17:13:send_custom_msg	64	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/profile/transport/custom/custom_transport.c:58:13:recv_custom_msg	64	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/profile/transport/custom/custom_transport.c:115:16:get_custom_error	4	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/profile/transport/custom/custom_transport.c:124:6:uxr_set_custom_transport_callbacks	24	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/profile/transport/custom/custom_transport.c:139:6:uxr_init_custom_transport	24	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/profile/transport/custom/custom_transport.c:178:6:uxr_close_custom_transport	16	static

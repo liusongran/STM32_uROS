@@ -1,0 +1,4 @@
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/stream/output_best_effort_stream.c:12:6:uxr_init_output_best_effort_stream	24	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/stream/output_best_effort_stream.c:27:6:uxr_reset_output_best_effort_stream	16	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/stream/output_best_effort_stream.c:34:6:uxr_prepare_best_effort_buffer_to_write	48	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/stream/output_best_effort_stream.c:53:6:uxr_prepare_best_effort_buffer_to_send	32	static

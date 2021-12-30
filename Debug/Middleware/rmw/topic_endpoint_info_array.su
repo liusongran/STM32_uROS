@@ -1,0 +1,4 @@
+../Middleware/rmw/topic_endpoint_info_array.c:20:1:rmw_get_zero_initialized_topic_endpoint_info_array	24	static
+../Middleware/rmw/topic_endpoint_info_array.c:34:1:rmw_topic_endpoint_info_array_check_zero	16	static
+../Middleware/rmw/topic_endpoint_info_array.c:49:1:rmw_topic_endpoint_info_array_init_with_size	160	static
+../Middleware/rmw/topic_endpoint_info_array.c:76:1:rmw_topic_endpoint_info_array_fini	24	static

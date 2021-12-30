@@ -1,0 +1,16 @@
+../Middleware/rcl/subscription.c:39:1:rcl_get_zero_initialized_subscription	4	static
+../Middleware/rcl/subscription.c:46:1:rcl_subscription_init	128	static
+../Middleware/rcl/subscription.c:228:1:rcl_subscription_fini	56	static
+../Middleware/rcl/subscription.c:261:1:rcl_subscription_get_default_options	48	static
+../Middleware/rcl/subscription.c:273:1:rcl_take	152	static
+../Middleware/rcl/subscription.c:307:1:rcl_take_sequence	40	static
+../Middleware/rcl/subscription.c:353:1:rcl_take_serialized_message	152	static
+../Middleware/rcl/subscription.c:386:1:rcl_take_loaned_message	152	static
+../Middleware/rcl/subscription.c:422:1:rcl_return_loaned_message_from_subscription	16	static
+../Middleware/rcl/subscription.c:437:1:rcl_subscription_get_topic_name	16	static
+../Middleware/rcl/subscription.c:448:1:rcl_subscription_get_options	16	static
+../Middleware/rcl/subscription.c:457:1:rcl_subscription_get_rmw_handle	16	static
+../Middleware/rcl/subscription.c:466:1:rcl_subscription_is_valid	16	static
+../Middleware/rcl/subscription.c:477:1:rcl_subscription_get_publisher_count	24	static
+../Middleware/rcl/subscription.c:499:1:rcl_subscription_get_actual_qos	16	static
+../Middleware/rcl/subscription.c:508:1:rcl_subscription_can_loan_messages	16	static

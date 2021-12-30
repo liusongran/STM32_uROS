@@ -1,0 +1,5 @@
+../Middleware/eProsima/Micro-XRCE-DDS-Client/util/ping.c:36:6:uxr_ping_agent_session	88	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/util/ping.c:62:6:uxr_ping_agent_attempts	96	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/util/ping.c:102:13:uxr_ping_agent	16	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/util/ping.c:112:6:serialize_get_info_message	48	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/util/ping.c:132:6:listen_info_message	80	static

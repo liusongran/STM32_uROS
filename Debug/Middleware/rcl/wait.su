@@ -1,0 +1,14 @@
+../Middleware/rcl/wait.c:64:1:rcl_get_zero_initialized_wait_set	24	static
+../Middleware/rcl/wait.c:91:1:__wait_set_clean_up	40	static
+../Middleware/rcl/wait.c:103:1:rcl_wait_set_init	64	static
+../Middleware/rcl/wait.c:189:1:rcl_wait_set_fini	24	static
+../Middleware/rcl/wait.c:206:1:rcl_wait_set_get_allocator	24	static
+../Middleware/rcl/wait.c:318:1:rcl_wait_set_add_subscription	32	static
+../Middleware/rcl/wait.c:334:1:rcl_wait_set_clear	16	static
+../Middleware/rcl/wait.c:376:1:rcl_wait_set_resize	160	static
+../Middleware/rcl/wait.c:454:1:rcl_wait_set_add_guard_condition	32	static
+../Middleware/rcl/wait.c:468:1:rcl_wait_set_add_timer	40	static
+../Middleware/rcl/wait.c:488:1:rcl_wait_set_add_client	32	static
+../Middleware/rcl/wait.c:499:1:rcl_wait_set_add_service	32	static
+../Middleware/rcl/wait.c:510:1:rcl_wait_set_add_event	32	static
+../Middleware/rcl/wait.c:522:1:rcl_wait	160	static

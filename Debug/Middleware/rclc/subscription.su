@@ -1,0 +1,3 @@
+../Middleware/rclc/subscription.c:24:1:rclc_subscription_init_default	32	static
+../Middleware/rclc/subscription.c:36:1:rclc_subscription_init_best_effort	32	static
+../Middleware/rclc/subscription.c:48:1:rclc_subscription_init	152	static

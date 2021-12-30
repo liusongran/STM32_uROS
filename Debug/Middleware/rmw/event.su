@@ -1,0 +1,2 @@
+../Middleware/rmw/event.c:25:1:rmw_get_zero_initialized_event	32	static
+../Middleware/rmw/event.c:36:1:rmw_event_fini	40	static

@@ -1,0 +1,2 @@
+../Middleware/rcutils/cmdline_parser.c:19:6:rcutils_cli_option_exist	32	static
+../Middleware/rcutils/cmdline_parser.c:30:8:rcutils_cli_get_option	40	static

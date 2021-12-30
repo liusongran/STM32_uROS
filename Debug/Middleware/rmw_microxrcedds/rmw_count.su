@@ -1,0 +1,3 @@
+../Middleware/rmw_microxrcedds/rmw_count.c:32:1:__rmw_count_entities	64	static
+../Middleware/rmw_microxrcedds/rmw_count.c:87:1:rmw_count_publishers	24	static
+../Middleware/rmw_microxrcedds/rmw_count.c:109:1:rmw_count_subscribers	24	static

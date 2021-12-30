@@ -1,0 +1,3 @@
+../Middleware/rmw/validate_namespace.c:27:1:rmw_validate_namespace	24	static
+../Middleware/rmw/validate_namespace.c:40:1:rmw_validate_namespace_with_size	304	static
+../Middleware/rmw/validate_namespace.c:126:1:rmw_namespace_validation_result_string	16	static

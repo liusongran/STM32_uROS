@@ -1,0 +1,2 @@
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/serialization/xrce_header.c:6:6:uxr_serialize_message_header	16	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/core/serialization/xrce_header.c:22:6:uxr_deserialize_message_header	24	static

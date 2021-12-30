@@ -1,0 +1,4 @@
+../Middleware/eProsima/Micro-XRCE-DDS-Client/profile/multithread/multithread.c:10:6:uxr_init_lock	16	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/profile/multithread/multithread.c:27:6:uxr_lock	16	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/profile/multithread/multithread.c:41:6:uxr_unlock	16	static
+../Middleware/eProsima/Micro-XRCE-DDS-Client/profile/multithread/multithread.c:55:11:uxr_get_stream_mutex_from_id	40	static

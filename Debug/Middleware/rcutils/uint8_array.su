@@ -1,0 +1,4 @@
+../Middleware/rcutils/uint8_array.c:19:1:rcutils_get_zero_initialized_uint8_array	48	static
+../Middleware/rcutils/uint8_array.c:31:1:rcutils_uint8_array_init	32	static
+../Middleware/rcutils/uint8_array.c:58:1:rcutils_uint8_array_fini	24	static
+../Middleware/rcutils/uint8_array.c:74:1:rcutils_uint8_array_resize	24	static
