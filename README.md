@@ -1,6 +1,6 @@
-# NEU_uROS
+# STM32_uROS
 
-### ADOS in NEU:
+### ADOS:
 #### Code structure:
 1. ./middleware
 - rcl/
