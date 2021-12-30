@@ -1,4 +1,0 @@
-rmw_get_topic_endpoint_info.c:35:1:__endpoint_kind_to_endpoint_type	24	static
-rmw_get_topic_endpoint_info.c:62:1:__rmw_get_endpoint_info_by_topic	80	static
-rmw_get_topic_endpoint_info.c:189:1:rmw_get_publishers_info_by_topic	32	static
-rmw_get_topic_endpoint_info.c:217:1:rmw_get_subscriptions_info_by_topic	32	static

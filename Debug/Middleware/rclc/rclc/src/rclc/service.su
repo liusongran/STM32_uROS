@@ -1,3 +1,0 @@
-service.c:24:1:rclc_service_init_default	32	static
-service.c:36:1:rclc_service_init_best_effort	112	static
-service.c:51:1:rclc_service_init	144	static

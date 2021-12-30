@@ -1,3 +1,0 @@
-init.c:26:1:rclc_support_init	48	static
-init.c:54:1:rclc_support_init_with_options	56	static
-init.c:92:1:rclc_support_fini	24	static

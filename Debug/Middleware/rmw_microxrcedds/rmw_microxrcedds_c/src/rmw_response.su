@@ -1,2 +1,0 @@
-rmw_response.c:23:1:rmw_send_response	128	static
-rmw_response.c:81:1:rmw_take_response	80	static

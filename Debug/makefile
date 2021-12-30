@@ -9,40 +9,11 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
--include Middleware/rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_c/src/subdir.mk
--include Middleware/rosidl_typesupport/rosidl_typesupport_c/src/subdir.mk
--include Middleware/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_microros/subdir.mk
--include Middleware/rmw_microxrcedds/rmw_microxrcedds_c/src/subdir.mk
--include Middleware/rcutils/test/dummy_shared_library/subdir.mk
--include Middleware/rcutils/test/subdir.mk
--include Middleware/rcutils/src/testing/subdir.mk
--include Middleware/rcutils/src/subdir.mk
--include Middleware/rclc/rclc/src/rclc/subdir.mk
--include Middleware/rcl/rcl_yaml_param_parser/src/subdir.mk
--include Middleware/rcl/rcl/src/rcl/subdir.mk
--include Middleware/micro_ros_utilities/src/subdir.mk
 -include Middleware/include/std_msgs/msg/detail/subdir.mk
 -include Middleware/include/rcl_interfaces/srv/detail/subdir.mk
 -include Middleware/include/rcl_interfaces/msg/detail/subdir.mk
 -include Middleware/include/micro_ros_msgs/msg/detail/subdir.mk
 -include Middleware/include/builtin_interfaces/msg/detail/subdir.mk
--include Middleware/eProsima/Micro-XRCE-DDS-Client/test/memory/consumption/subdir.mk
--include Middleware/eProsima/Micro-XRCE-DDS-Client/test/case/packaging/subdir.mk
--include Middleware/eProsima/Micro-XRCE-DDS-Client/src/c/util/subdir.mk
--include Middleware/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/subdir.mk
--include Middleware/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/serial/subdir.mk
--include Middleware/eProsima/Micro-XRCE-DDS-Client/src/c/profile/shared_memory/subdir.mk
--include Middleware/eProsima/Micro-XRCE-DDS-Client/src/c/profile/multithread/subdir.mk
--include Middleware/eProsima/Micro-XRCE-DDS-Client/src/c/profile/matching/subdir.mk
--include Middleware/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/stream/subdir.mk
--include Middleware/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/subdir.mk
--include Middleware/eProsima/Micro-XRCE-DDS-Client/src/c/core/serialization/subdir.mk
--include Middleware/eProsima/Micro-XRCE-DDS-Client/src/c/core/log/subdir.mk
--include Middleware/eProsima/Micro-CDR/test/case/packaging/subdir.mk
--include Middleware/eProsima/Micro-CDR/src/c/types/subdir.mk
--include Middleware/eProsima/Micro-CDR/src/c/subdir.mk
--include Middleware/eProsima/Micro-CDR/examples/fragmentation/subdir.mk
--include Middleware/eProsima/Micro-CDR/examples/basic/subdir.mk
 -include Kernel/lib/FreeRTOS-Plus-POSIX/source/subdir.mk
 -include Kernel/FreeRTOS/Source/portable/MemMang/subdir.mk
 -include Kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/subdir.mk
@@ -75,34 +46,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := NEU_uROS
+BUILD_ARTIFACT_NAME := STM32_uROS
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX := 
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME).$(BUILD_ARTIFACT_EXTENSION)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-NEU_uROS.elf \
+STM32_uROS.elf \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-NEU_uROS.list \
+STM32_uROS.list \
 
 OBJCOPY_BIN += \
-NEU_uROS.bin \
+STM32_uROS.bin \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: NEU_uROS.elf secondary-outputs
+main-build: STM32_uROS.elf secondary-outputs
 
 # Tool invocations
-NEU_uROS.elf: $(OBJS) $(USER_OBJS) /Users/liusongran/MyProject/NEU_uROS/STM32F446ZETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "NEU_uROS.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/Users/liusongran/MyProject/NEU_uROS/STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="NEU_uROS.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+STM32_uROS.elf: $(OBJS) $(USER_OBJS) /Users/liusongran/MyProject/STM32_uROS/STM32F446ZETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "STM32_uROS.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/Users/liusongran/MyProject/STM32_uROS/STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32_uROS.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -111,13 +82,13 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-NEU_uROS.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "NEU_uROS.list"
+STM32_uROS.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "STM32_uROS.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
-NEU_uROS.bin: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objcopy  -O binary $(EXECUTABLES) "NEU_uROS.bin"
+STM32_uROS.bin: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objcopy  -O binary $(EXECUTABLES) "STM32_uROS.bin"
 	@echo 'Finished building: $@'
 	@echo ' '
 

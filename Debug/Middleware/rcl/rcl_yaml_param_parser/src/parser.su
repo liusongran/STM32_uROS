@@ -1,7 +1,0 @@
-parser.c:43:16:rcl_yaml_node_struct_init	24	static
-parser.c:77:16:rcl_yaml_node_struct_copy	96	static
-parser.c:137:6:rcl_yaml_node_struct_fini	64	static
-parser.c:176:6:rcl_parse_yaml_file	320	static
-parser.c:226:6:rcl_parse_yaml_value	296	static
-parser.c:274:17:rcl_yaml_node_struct_get	40	static
-parser.c:300:6:rcl_yaml_node_struct_print	64	static

@@ -1,4 +1,0 @@
-rmw_publish.c:23:6:flush_session	24	static
-rmw_publish.c:32:1:rmw_publish	104	static
-rmw_publish.c:96:1:rmw_publish_serialized_message	24	static
-rmw_publish.c:109:1:rmw_publish_loaned_message	24	static

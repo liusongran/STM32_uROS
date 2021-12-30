@@ -1,3 +1,0 @@
-memory.c:24:6:has_memory	24	static
-memory.c:34:28:get_memory	24	static
-memory.c:75:6:put_memory	16	static

@@ -1,2 +1,0 @@
-node_params.c:21:15:node_params_init	16	static
-node_params.c:46:6:rcl_yaml_node_params_fini	48	static

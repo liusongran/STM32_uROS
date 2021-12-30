@@ -1,7 +1,0 @@
-string_utilities.c:22:26:micro_ros_string_utilities_init	56	static
-string_utilities.c:38:26:micro_ros_string_utilities_init_with_size	56	static
-string_utilities.c:52:26:micro_ros_string_utilities_set	64	static
-string_utilities.c:71:14:micro_ros_string_utilities_get_c_str	24	static
-string_utilities.c:77:26:micro_ros_string_utilities_append	72	static
-string_utilities.c:98:26:micro_ros_string_utilities_remove_tail_chars	40	static
-string_utilities.c:111:6:micro_ros_string_utilities_destroy	40	static

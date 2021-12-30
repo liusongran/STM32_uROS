@@ -1,8 +1,0 @@
-stream_framing_protocol.c:47:6:uxr_update_crc	16	static
-stream_framing_protocol.c:54:6:uxr_get_next_octet	24	static
-stream_framing_protocol.c:86:6:uxr_add_next_octet	24	static
-stream_framing_protocol.c:115:6:uxr_init_framing_io	16	static
-stream_framing_protocol.c:125:6:uxr_framing_write_transport	40	static
-stream_framing_protocol.c:148:8:uxr_write_framed_msg	40	static
-stream_framing_protocol.c:214:8:uxr_framing_read_transport	64	static
-stream_framing_protocol.c:286:8:uxr_read_framed_msg	40	static

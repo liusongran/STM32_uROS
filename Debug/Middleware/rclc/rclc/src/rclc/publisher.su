@@ -1,3 +1,0 @@
-publisher.c:24:1:rclc_publisher_init_default	32	static
-publisher.c:36:1:rclc_publisher_init_best_effort	32	static
-publisher.c:48:1:rclc_publisher_init	152	static

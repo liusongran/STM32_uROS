@@ -1,6 +1,0 @@
-rmw_init.c:39:1:rmw_init_options_init	32	static
-rmw_init.c:119:1:rmw_init_options_copy	40	static
-rmw_init.c:151:1:rmw_init_options_fini	88	static
-rmw_init.c:183:1:rmw_init	48	static
-rmw_init.c:320:1:rmw_shutdown	120	static
-rmw_init.c:346:1:rmw_context_fini	40	static

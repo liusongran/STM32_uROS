@@ -1,2 +1,0 @@
-rmw_node_names.c:32:1:rmw_get_node_names	80	static
-rmw_node_names.c:106:1:rmw_get_node_names_with_enclaves	24	static

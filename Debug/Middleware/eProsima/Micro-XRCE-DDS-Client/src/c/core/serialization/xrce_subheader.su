@@ -1,2 +1,0 @@
-xrce_subheader.c:6:6:uxr_serialize_submessage_header	16	static
-xrce_subheader.c:17:6:uxr_deserialize_submessage_header	24	static

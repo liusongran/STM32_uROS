@@ -1,3 +1,0 @@
-namespace.c:20:15:add_name_to_ns	64	static
-namespace.c:90:15:rem_name_from_ns	56	static
-namespace.c:157:15:replace_ns	40	static

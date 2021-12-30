@@ -1,9 +1,0 @@
-create_entities_xml.c:20:10:uxr_buffer_create_participant_xml	576	static
-create_entities_xml.c:37:10:uxr_buffer_create_topic_xml	576	static
-create_entities_xml.c:54:10:uxr_buffer_create_publisher_xml	576	static
-create_entities_xml.c:71:10:uxr_buffer_create_subscriber_xml	576	static
-create_entities_xml.c:88:10:uxr_buffer_create_datawriter_xml	576	static
-create_entities_xml.c:107:10:uxr_buffer_create_datareader_xml	576	static
-create_entities_xml.c:126:10:uxr_buffer_create_requester_xml	576	static
-create_entities_xml.c:143:10:uxr_buffer_create_replier_xml	576	static
-create_entities_xml.c:164:17:create_entity_xml	32	static

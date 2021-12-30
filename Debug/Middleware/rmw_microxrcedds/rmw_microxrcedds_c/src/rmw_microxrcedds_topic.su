@@ -1,3 +1,0 @@
-rmw_microxrcedds_topic.c:25:1:create_topic	64	static
-rmw_microxrcedds_topic.c:100:11:destroy_topic	32	static
-rmw_microxrcedds_topic.c:126:8:topic_count	32	static

@@ -1,8 +1,0 @@
-Middleware/rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_c/src/deserialize_buffer_utility.o: \
- ../Middleware/rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_c/src/deserialize_buffer_utility.c \
- /Users/liusongran/MyProject/NEU_uROS/Middleware/include/rosidl_typesupport_microxrcedds_c/deserialize_buffer_utility.h \
- /Users/liusongran/MyProject/NEU_uROS/Middleware/include/rosidl_typesupport_microxrcedds_c/visibility_control.h
-
-/Users/liusongran/MyProject/NEU_uROS/Middleware/include/rosidl_typesupport_microxrcedds_c/deserialize_buffer_utility.h:
-
-/Users/liusongran/MyProject/NEU_uROS/Middleware/include/rosidl_typesupport_microxrcedds_c/visibility_control.h:

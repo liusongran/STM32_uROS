@@ -1,4 +1,0 @@
-find.c:29:1:rcutils_find	16	static
-find.c:38:1:rcutils_findn	32	static
-find.c:53:1:rcutils_find_last	16	static
-find.c:62:1:rcutils_find_lastn	32	static

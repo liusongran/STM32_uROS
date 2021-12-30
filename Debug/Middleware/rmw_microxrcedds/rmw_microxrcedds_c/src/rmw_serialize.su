@@ -1,3 +1,0 @@
-rmw_serialize.c:19:1:rmw_serialize	24	static
-rmw_serialize.c:32:1:rmw_deserialize	24	static
-rmw_serialize.c:45:1:rmw_get_serialized_message_size	24	static

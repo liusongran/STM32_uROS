@@ -1,7 +1,0 @@
-atomic_64bits.c:25:15:get_memory_lock	24	static
-atomic_64bits.c:41:6:lock_memory	24	static
-atomic_64bits.c:47:6:unlock_memory	24	static
-atomic_64bits.c:53:10:__atomic_load_8	24	static
-atomic_64bits.c:62:6:__atomic_store_8	24	static
-atomic_64bits.c:70:10:__atomic_exchange_8	32	static
-atomic_64bits.c:80:10:__atomic_fetch_add_8	40	static

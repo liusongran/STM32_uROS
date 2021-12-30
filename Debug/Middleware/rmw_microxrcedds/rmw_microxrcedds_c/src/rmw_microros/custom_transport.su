@@ -1,2 +1,0 @@
-custom_transport.c:25:11:rmw_uros_set_custom_transport	24	static
-custom_transport.c:51:11:rmw_uros_options_set_custom_transport	24	static

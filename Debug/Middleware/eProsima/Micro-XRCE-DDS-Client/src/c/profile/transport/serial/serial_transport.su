@@ -1,5 +1,0 @@
-serial_transport.c:29:13:send_serial_msg	56	static
-serial_transport.c:59:13:recv_serial_msg	56	static
-serial_transport.c:101:16:get_serial_error	4	static
-serial_transport.c:110:6:uxr_init_serial_transport	32	static
-serial_transport.c:137:6:uxr_close_serial_transport	16	static

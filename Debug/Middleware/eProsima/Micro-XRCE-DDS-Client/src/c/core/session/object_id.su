@@ -1,3 +1,0 @@
-object_id.c:6:13:uxr_object_id	24	static
-object_id.c:16:13:uxr_object_id_from_raw	24	static
-object_id.c:25:6:uxr_object_id_to_raw	16	static

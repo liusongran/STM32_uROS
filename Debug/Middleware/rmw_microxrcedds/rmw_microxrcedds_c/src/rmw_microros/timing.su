@@ -1,5 +1,0 @@
-timing.c:23:11:rmw_uros_set_publisher_session_timeout	24	static
-timing.c:34:11:rmw_uros_set_service_session_timeout	24	static
-timing.c:45:11:rmw_uros_set_client_session_timeout	24	static
-timing.c:56:11:rmw_uros_set_context_entity_creation_session_timeout	24	static
-timing.c:67:11:rmw_uros_set_context_entity_destroy_session_timeout	24	static

@@ -1,2 +1,0 @@
-rmw_event.c:20:1:rmw_publisher_event_init	24	static
-rmw_event.c:33:1:rmw_subscription_event_init	24	static

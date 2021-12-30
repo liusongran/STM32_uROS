@@ -1,2 +1,0 @@
-rmw_get_endpoint_network_flow.c:22:1:rmw_publisher_get_network_flow_endpoints	24	static
-rmw_get_endpoint_network_flow.c:36:1:rmw_subscription_get_network_flow_endpoints	24	static

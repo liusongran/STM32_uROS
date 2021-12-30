@@ -1,5 +1,0 @@
-executor_handle.c:25:1:rclc_executor_handle_counters_zero_init	16	static
-executor_handle.c:34:1:rclc_executor_handle_init	16	static
-executor_handle.c:67:1:rclc_executor_handle_clear	16	static
-executor_handle.c:80:1:rclc_executor_handle_print	24	static
-executor_handle.c:120:1:rclc_executor_handle_get_ptr	24	static
