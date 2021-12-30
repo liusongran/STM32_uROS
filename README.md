@@ -11,22 +11,22 @@ This project builds a new AMOS kernel based on [Micro-ROS](https://micro.ros.org
 ├── Drivers
 ├── Kernel
 │   ├── FreeRTOS
-│   │		└── Source
-│   │					├── CMSIS_RTOS_V2
-│   │					├── include
-│   │					├── portable
-│   │					├── list.c
-│   │					├── queue.c
-│   │					├── tasks.c
-│   │					├── timers.c
-│   │					└── stream_buffer.c
+│   │	└── Source
+│   │		  ├── CMSIS_RTOS_V2
+│   │		  ├── include
+│   │		  ├── portable
+│   │		  ├── list.c
+│   │		  ├── queue.c
+│   │		  ├── tasks.c
+│   │		  ├── timers.c
+│   │		  └── stream_buffer.c
 │   └── lib
 │       ├── include
-│   		└── FreeRTOS-Plus-POSIX
+│   	└── FreeRTOS-Plus-POSIX
 └── Middleware
     ├── eProsima
-    │    ├── Micro-CDR
-    │		 └── Micro-XRCE-DDS-Client
+    │   ├── Micro-CDR
+    │	└── Micro-XRCE-DDS-Client
     ├── micro_ros_utilities
     ├── rcl [commit 5de1a395fbdfd2938b89fcf5f2403e31eff66370]
     ├── rclc 
