@@ -34,13 +34,17 @@
 #define _FREERTOS_POSIX_H_
 
 /* FreeRTOS+POSIX platform-specific configuration headers. */
-#include "event_groups.h"
+#include "FreeRTOS_POSIX_portable.h"
+#include "FreeRTOS_POSIX_portable_default.h"
+
+/* FreeRTOS includes. */
 #include "FreeRTOS.h"
+#include "event_groups.h"
 #include "semphr.h"
 #include "task.h"
-#include "FreeRTOS_POSIX_internal.h"
-#include "portable/FreeRTOS_POSIX_portable_default.h"
-//#include "portable/pc/windows/FreeRTOS_POSIX_portable.h"
+
+/* FreeRTOS+POSIX data types and internal structs. */
 #include "FreeRTOS_POSIX/sys/types.h"
+#include "FreeRTOS_POSIX_internal.h"
 
 #endif /* _FREERTOS_POSIX_H_ */

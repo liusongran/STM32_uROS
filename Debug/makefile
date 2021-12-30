@@ -1,6 +1,6 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (9-2020-q2-update)
+# Toolchain: uROS_app
 ################################################################################
 
 -include ../makefile.init
@@ -9,11 +9,34 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include Middleware/rosidl_typesupport_microxrcedds/subdir.mk
+-include Middleware/rosidl_typesupport/subdir.mk
+-include Middleware/rmw_microxrcedds/rmw_microros/subdir.mk
+-include Middleware/rmw_microxrcedds/subdir.mk
+-include Middleware/rmw/subdir.mk
+-include Middleware/rcutils/testing/subdir.mk
+-include Middleware/rcutils/subdir.mk
+-include Middleware/rclc/subdir.mk
+-include Middleware/rcl/subdir.mk
+-include Middleware/micro_ros_utilities/subdir.mk
 -include Middleware/include/std_msgs/msg/detail/subdir.mk
 -include Middleware/include/rcl_interfaces/srv/detail/subdir.mk
 -include Middleware/include/rcl_interfaces/msg/detail/subdir.mk
 -include Middleware/include/micro_ros_msgs/msg/detail/subdir.mk
 -include Middleware/include/builtin_interfaces/msg/detail/subdir.mk
+-include Middleware/eProsima/Micro-XRCE-DDS-Client/util/subdir.mk
+-include Middleware/eProsima/Micro-XRCE-DDS-Client/profile/transport/stream_framing/subdir.mk
+-include Middleware/eProsima/Micro-XRCE-DDS-Client/profile/transport/serial/subdir.mk
+-include Middleware/eProsima/Micro-XRCE-DDS-Client/profile/transport/custom/subdir.mk
+-include Middleware/eProsima/Micro-XRCE-DDS-Client/profile/shared_memory/subdir.mk
+-include Middleware/eProsima/Micro-XRCE-DDS-Client/profile/multithread/subdir.mk
+-include Middleware/eProsima/Micro-XRCE-DDS-Client/profile/matching/subdir.mk
+-include Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/stream/subdir.mk
+-include Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/subdir.mk
+-include Middleware/eProsima/Micro-XRCE-DDS-Client/core/serialization/subdir.mk
+-include Middleware/eProsima/Micro-XRCE-DDS-Client/core/log/subdir.mk
+-include Middleware/eProsima/Micro-CDR/types/subdir.mk
+-include Middleware/eProsima/Micro-CDR/subdir.mk
 -include Kernel/lib/FreeRTOS-Plus-POSIX/source/subdir.mk
 -include Kernel/FreeRTOS/Source/portable/MemMang/subdir.mk
 -include Kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/subdir.mk

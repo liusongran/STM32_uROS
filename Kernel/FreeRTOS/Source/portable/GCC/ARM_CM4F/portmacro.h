@@ -42,7 +42,7 @@ extern "C" {
  * These settings should not be altered.
  *-----------------------------------------------------------
  */
-#include <stdint.h>
+
 /* Type definitions. */
 #define portCHAR		char
 #define portFLOAT		float
@@ -240,4 +240,3 @@ portFORCE_INLINE static void vPortSetBASEPRI( uint32_t ulNewMaskValue )
 #endif
 
 #endif /* PORTMACRO_H */
-

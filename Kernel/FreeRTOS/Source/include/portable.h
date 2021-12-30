@@ -96,7 +96,7 @@ must be set in the compiler's include path. */
 extern "C" {
 #endif
 
-#include "../../../../Kernel/FreeRTOS/Source/include/mpu_wrappers.h"
+#include "mpu_wrappers.h"
 
 /*
  * Setup the stack of a new task so it is ready to be placed under the

@@ -1,3 +1,5 @@
+#include <uxr/client/transport.h>
+
 #include "stm32f4xx_hal.h"
 #include "stm32f4xx_hal_dma.h"
 
@@ -5,7 +7,6 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
-#include "../../middleware1/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/transport.h"
 
 // --- micro-ROS Transports ---
 #define UART_DMA_BUFFER_SIZE 2048
@@ -57,3 +58,4 @@ size_t freertos_serial_read(struct uxrCustomTransport* transport, uint8_t* buf, 
     
     return wrote;
 }
+

@@ -21,21 +21,23 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 
+#include "cmsis_os.h"
+
+/* Private includes ----------------------------------------------------------*/
+/* USER CODE BEGIN Includes */
 #include <allocators.h>
+#include <rcl/rcl.h>
 #include <rmw_microxrcedds_c/config.h>
+#include <ucdr/microcdr.h>
+#include <uxr/client/client.h>
+
 #include <rmw_microros/rmw_microros.h>  
 
 #include <microros_transports.h>  
 
+#include "FreeRTOS.h"
 #include "stm32f4xx_hal.h"
-
-#include "../../kernel1/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h"
-#include "../../kernel1/FreeRTOS/Source/include/FreeRTOS.h"
-#include "../../kernel1/FreeRTOS/Source/include/task.h"
-#include "../../middleware1/eProsima/Micro-CDR/include/ucdr/microcdr.h"
-#include "../../middleware1/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/client.h"
-#include "../../middleware1/rcl/rcl/include/rcl/rcl.h"
-#include "../../middleware1/rmw_microxrcedds/rmw_microxrcedds_c/include/rmw_microros/rmw_microros.h"
+#include "task.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/

@@ -1,10 +1,13 @@
 #include <std_msgs/msg/header.h>
 
+//#include <std_msgs/msg/detail/header__type_support.h>
+
 #include <stdio.h>
 #include <unistd.h>
 #include <time.h>
 #include "rcl/error_handling.h"
 #include "rcl/rcl.h"
+#include "rcl/allocator.h"
 #include "rclc/executor.h"
 #include "rclc/rclc.h"
 
@@ -17,6 +20,8 @@
 
 #define RCCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){printf("Failed status on line %d: %d. Aborting.\n",__LINE__,(int)temp_rc); vTaskDelete(NULL);}}
 #define RCSOFTCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){printf("Failed status on line %d: %d. Continuing.\n",__LINE__,(int)temp_rc);}}
+
+extern int clock_gettime( clockid_t clock_id, struct timespec * tp );
 
 rcl_publisher_t ping_publisher;
 rcl_publisher_t pong_publisher;
@@ -76,6 +81,7 @@ void pong_subscription_callback(const void * msgin)
 	}
 }
 
+rosidl_message_type_support_t* abcd;
 
 void appMain(void *argument)
 {
@@ -90,20 +96,21 @@ void appMain(void *argument)
 	RCCHECK(rclc_node_init_default(&node, "pingpong_node", "", &support));
 
 	// Create a reliable ping publisher
+
 	RCCHECK(rclc_publisher_init_default(&ping_publisher, &node,
-		ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Header), "/microROS/ping"));
+			abcd, "/microROS/ping"));
 
 	// Create a best effort pong publisher
 	RCCHECK(rclc_publisher_init_best_effort(&pong_publisher, &node,
-		ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Header), "/microROS/pong"));
+			abcd, "/microROS/pong"));
 
 	// Create a best effort ping subscriber
 	RCCHECK(rclc_subscription_init_best_effort(&ping_subscriber, &node,
-		ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Header), "/microROS/ping"));
+			abcd, "/microROS/ping"));
 
 	// Create a best effort  pong subscriber
 	RCCHECK(rclc_subscription_init_best_effort(&pong_subscriber, &node,
-		ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Header), "/microROS/pong"));
+			abcd, "/microROS/pong"));
 
 
 	// Create a 3 seconds ping timer timer,

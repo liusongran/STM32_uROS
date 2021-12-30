@@ -49,7 +49,7 @@
                             							
                             <option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.214746957" name="Defaults" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults" useByScannerDiscovery="false" value="com.st.stm32cube.ide.common.services.build.inputs.revA.1.0.5 || Debug || true || Executable || com.st.stm32cube.ide.mcu.gnu.managedbuild.option.toolchain.value.workspace || NUCLEO-F446ZE || 0 || 0 || arm-none-eabi- || ${gnu_tools_for_stm32_compiler_path} || ../Core/Inc | ../Drivers/STM32F4xx_HAL_Driver/Inc | ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy | ../Drivers/CMSIS/Device/ST/STM32F4xx/Include | ../Drivers/CMSIS/Include ||  ||  || USE_HAL_DRIVER | STM32F446xx ||  || Drivers | Core/Startup | Core ||  ||  || ${workspace_loc:/${ProjName}/STM32F446ZETX_FLASH.ld} || true || NonSecure ||  || secure_nsclib.o ||  || None || " valueType="string"/>
                             							
-                            <option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.toolchain.1151643525" name="Toolchain" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.toolchain" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.toolchain.value.workspace" valueType="string"/>
+                            <option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.toolchain.1151643525" name="Toolchain" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.toolchain" useByScannerDiscovery="false" value="uROS_app" valueType="string"/>
                             							
                             <option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.nanoprintffloat.730330533" name="Use float with printf from newlib-nano (-u _printf_float)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.nanoprintffloat" useByScannerDiscovery="false" value="true" valueType="boolean"/>
                             							
@@ -129,6 +129,8 @@
                                     									
                                     <listOptionValue builtIn="false" value="../Core/Inc"/>
                                     									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Middleware/include}&quot;"/>
+                                    									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/apps}&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="../Drivers/STM32F4xx_HAL_Driver/Inc"/>
@@ -138,12 +140,6 @@
                                     <listOptionValue builtIn="false" value="../Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
                                     									
                                     <listOptionValue builtIn="false" value="../Drivers/CMSIS/Include"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Middleware/rclc/rclc/include}&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Middleware/rcl/rcl/include}&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Middleware/rcl/rcl/src}&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Middleware/eProsima/Micro-XRCE-DDS-Client/include}&quot;"/>
                                     									
@@ -219,13 +215,13 @@
                         						
                         <entry excluding="add_two_ints_service|joint_states_subscriber|int32_publisher|freertos_apps|int32_subscriber|crazyflie_demo|crazyflie_position_publisher" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Apps"/>
                         						
-                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
+                        <entry excluding="Startup/startup_stm32f446zetx.s" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
                         						
                         <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
                         						
                         <entry excluding="lib/FreeRTOS-Plus-POSIX/source/FreeRTOS_POSIX_timer.c|lib/FreeRTOS-Plus-POSIX/source/FreeRTOS_POSIX_semaphore.c|lib/FreeRTOS-Plus-POSIX/source/FreeRTOS_POSIX_pthread_mutex.c|lib/FreeRTOS-Plus-POSIX/source/FreeRTOS_POSIX_pthread_cond.c|lib/FreeRTOS-Plus-POSIX/source/FreeRTOS_POSIX_pthread_barrier.c|lib/FreeRTOS-Plus-POSIX/source/FreeRTOS_POSIX_mqueue.c|FreeRTOS/Source/CMSIS_RTOS|FreeRTOS/Source/portable/MemMang/heap_1.c|FreeRTOS/Source/portable/MemMang/heap_5.c|FreeRTOS/Source/portable/MemMang/heap_3.c|FreeRTOS/Source/portable/MemMang/heap_2.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Kernel"/>
                         						
-                        <entry excluding="eProsima/Micro-XRCE-DDS-Client/examples|eProsima/Micro-XRCE-DDS-Client/src/c/profile/discovery|eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/serial/serial_transport_posix.c|eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/ip|eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/custom|eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/can|include/uxr/client/profile/transport/can|include/uxr/client/profile/transport/ip|include/uxr/client/profile/transport/custom|rcutils/src/time_win32.c|rosidl_typesupport_microxrcedds/test|rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_cpp|rosidl_typesupport/rosidl_typesupport_c/test|rosidl_typesupport/rosidl_typesupport_cpp|rmw_microxrcedds/rmw_microxrcedds_c/utils|rmw_microxrcedds/rmw_microxrcedds_c/test|rcl/rcl/test|rcl/rcl/cmake|rcl/rcl_lifecycle|rcl/rcl_action|rclc/rclc_lifecycle|rclc/rclc_examples|rclc/rclc/test" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Middleware"/>
+                        <entry excluding="eProsima/Micro-XRCE-DDS-Client/profile/discovery|eProsima/Micro-XRCE-DDS-Client/profile/discovery/transport|eProsima/Micro-XRCE-DDS-Client/profile/transport/serial/serial_transport_posix.c|eProsima/Micro-XRCE-DDS-Client/profile/transport/can|eProsima/Micro-XRCE-DDS-Client/profile/transport/ip|rcutils/time_win32.c|eProsima/Micro-XRCE-DDS-Client/examples|eProsima/Micro-XRCE-DDS-Client/src/c/profile/discovery|eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/serial/serial_transport_posix.c|eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/ip|eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/custom|eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/can|include/uxr/client/profile/transport/can|include/uxr/client/profile/transport/ip|include/uxr/client/profile/transport/custom|rcutils/src/time_win32.c|rosidl_typesupport_microxrcedds/test|rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_cpp|rosidl_typesupport/rosidl_typesupport_c/test|rosidl_typesupport/rosidl_typesupport_cpp|rmw_microxrcedds/rmw_microxrcedds_c/utils|rmw_microxrcedds/rmw_microxrcedds_c/test|rcl/rcl/test|rcl/rcl/cmake|rcl/rcl_lifecycle|rcl/rcl_action|rclc/rclc_lifecycle|rclc/rclc_examples|rclc/rclc/test" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Middleware"/>
                         					
                     </sourceEntries>
                     				
@@ -439,13 +435,13 @@
                         						
                         <entry excluding="add_two_ints_service|joint_states_subscriber|int32_publisher|freertos_apps|int32_subscriber|crazyflie_demo|crazyflie_position_publisher" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Apps"/>
                         						
-                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
+                        <entry excluding="Startup/startup_stm32f446zetx.s" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
                         						
                         <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
                         						
                         <entry excluding="lib/FreeRTOS-Plus-POSIX/source/FreeRTOS_POSIX_timer.c|lib/FreeRTOS-Plus-POSIX/source/FreeRTOS_POSIX_semaphore.c|lib/FreeRTOS-Plus-POSIX/source/FreeRTOS_POSIX_pthread_mutex.c|lib/FreeRTOS-Plus-POSIX/source/FreeRTOS_POSIX_pthread_cond.c|lib/FreeRTOS-Plus-POSIX/source/FreeRTOS_POSIX_pthread_barrier.c|lib/FreeRTOS-Plus-POSIX/source/FreeRTOS_POSIX_mqueue.c|FreeRTOS/Source/CMSIS_RTOS|FreeRTOS/Source/portable/MemMang/heap_1.c|FreeRTOS/Source/portable/MemMang/heap_5.c|FreeRTOS/Source/portable/MemMang/heap_3.c|FreeRTOS/Source/portable/MemMang/heap_2.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Kernel"/>
                         						
-                        <entry excluding="eProsima/Micro-XRCE-DDS-Client/examples|eProsima/Micro-XRCE-DDS-Client/src/c/profile/discovery|eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/serial/serial_transport_posix.c|eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/ip|eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/custom|eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/can|include/uxr/client/profile/transport/can|include/uxr/client/profile/transport/ip|include/uxr/client/profile/transport/custom|rcutils/src/time_win32.c|rosidl_typesupport_microxrcedds/test|rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_cpp|rosidl_typesupport/rosidl_typesupport_c/test|rosidl_typesupport/rosidl_typesupport_cpp|rmw_microxrcedds/rmw_microxrcedds_c/utils|rmw_microxrcedds/rmw_microxrcedds_c/test|rcl/rcl/test|rcl/rcl/cmake|rcl/rcl_lifecycle|rcl/rcl_action|rclc/rclc_lifecycle|rclc/rclc_examples|rclc/rclc/test" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Middleware"/>
+                        <entry excluding="eProsima/Micro-XRCE-DDS-Client/profile/discovery|eProsima/Micro-XRCE-DDS-Client/profile/discovery/transport|eProsima/Micro-XRCE-DDS-Client/profile/transport/serial/serial_transport_posix.c|eProsima/Micro-XRCE-DDS-Client/profile/transport/can|eProsima/Micro-XRCE-DDS-Client/profile/transport/ip|rcutils/time_win32.c|eProsima/Micro-XRCE-DDS-Client/examples|eProsima/Micro-XRCE-DDS-Client/src/c/profile/discovery|eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/serial/serial_transport_posix.c|eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/ip|eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/custom|eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/can|include/uxr/client/profile/transport/can|include/uxr/client/profile/transport/ip|include/uxr/client/profile/transport/custom|rcutils/src/time_win32.c|rosidl_typesupport_microxrcedds/test|rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_cpp|rosidl_typesupport/rosidl_typesupport_c/test|rosidl_typesupport/rosidl_typesupport_cpp|rmw_microxrcedds/rmw_microxrcedds_c/utils|rmw_microxrcedds/rmw_microxrcedds_c/test|rcl/rcl/test|rcl/rcl/cmake|rcl/rcl_lifecycle|rcl/rcl_action|rclc/rclc_lifecycle|rclc/rclc_examples|rclc/rclc/test" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Middleware"/>
                         					
                     </sourceEntries>
                     				

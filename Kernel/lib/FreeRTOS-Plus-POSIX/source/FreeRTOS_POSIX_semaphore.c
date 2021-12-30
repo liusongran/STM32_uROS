@@ -31,11 +31,12 @@
 /* C standard library includes. */
 #include <stddef.h>
 
-#include "../../../../Kernel/lib/FreeRTOS-Plus-POSIX/include/FreeRTOS_POSIX.h"
-#include "../../../../Kernel/lib/include/FreeRTOS_POSIX/errno.h"
-#include "../../../../Kernel/lib/include/FreeRTOS_POSIX/semaphore.h"
-#include "../../../../Kernel/lib/include/FreeRTOS_POSIX/utils.h"
 /* FreeRTOS+POSIX includes. */
+#include "FreeRTOS_POSIX.h"
+#include "FreeRTOS_POSIX/errno.h"
+#include "FreeRTOS_POSIX/semaphore.h"
+#include "FreeRTOS_POSIX/utils.h"
+
 #include "atomic.h"
 
 

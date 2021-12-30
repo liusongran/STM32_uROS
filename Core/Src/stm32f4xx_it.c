@@ -21,9 +21,8 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "stm32f4xx_it.h"
-
-#include "../../kernel1/FreeRTOS/Source/include/FreeRTOS.h"
-#include "../../kernel1/FreeRTOS/Source/include/task.h"
+#include "FreeRTOS.h"
+#include "task.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 /* USER CODE END Includes */

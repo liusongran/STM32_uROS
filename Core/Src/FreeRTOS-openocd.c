@@ -9,7 +9,7 @@
  * linking) to your LDFLAGS; same with all the other symbols you need.
  */
 
-#include "../../kernel1/FreeRTOS/Source/include/FreeRTOS.h"
+#include "FreeRTOS.h"
 
 #ifdef __GNUC__
 #define USED __attribute__((used))

@@ -32,13 +32,15 @@
 #include <stddef.h>
 
 /* FreeRTOS+POSIX includes. */
-#include "../../../../Kernel/FreeRTOS/Source/include/timers.h"
-#include "../../../../Kernel/lib/FreeRTOS-Plus-POSIX/include/FreeRTOS_POSIX.h"
-#include "../../../../Kernel/lib/include/FreeRTOS_POSIX/errno.h"
-#include "../../../../Kernel/lib/include/FreeRTOS_POSIX/pthread.h"
-#include "../../../../Kernel/lib/include/FreeRTOS_POSIX/signal.h"
-#include "../../../../Kernel/lib/include/FreeRTOS_POSIX/time.h"
-#include "../../../../Kernel/lib/include/FreeRTOS_POSIX/utils.h"
+#include "FreeRTOS_POSIX.h"
+#include "FreeRTOS_POSIX/errno.h"
+#include "FreeRTOS_POSIX/pthread.h"
+#include "FreeRTOS_POSIX/signal.h"
+#include "FreeRTOS_POSIX/time.h"
+#include "FreeRTOS_POSIX/utils.h"
+
+/* FreeRTOS timer include. */
+#include "timers.h"
 
 /* Timespec zero check macros. */
 #define TIMESPEC_IS_ZERO( xTimespec )        ( xTimespec.tv_sec == 0 && xTimespec.tv_nsec == 0 ) /**< Check for 0. */

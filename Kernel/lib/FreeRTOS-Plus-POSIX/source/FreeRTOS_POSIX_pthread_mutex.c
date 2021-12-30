@@ -33,10 +33,10 @@
 #include <string.h>
 
 /* FreeRTOS+POSIX includes. */
-#include "../../../../Kernel/lib/FreeRTOS-Plus-POSIX/include/FreeRTOS_POSIX.h"
-#include "../../../../Kernel/lib/include/FreeRTOS_POSIX/errno.h"
-#include "../../../../Kernel/lib/include/FreeRTOS_POSIX/pthread.h"
-#include "../../../../Kernel/lib/include/FreeRTOS_POSIX/utils.h"
+#include "FreeRTOS_POSIX.h"
+#include "FreeRTOS_POSIX/errno.h"
+#include "FreeRTOS_POSIX/pthread.h"
+#include "FreeRTOS_POSIX/utils.h"
 
 /**
  * @brief Initialize a PTHREAD_MUTEX_INITIALIZER mutex.

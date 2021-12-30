@@ -4,11 +4,7 @@ Middleware/include/std_msgs/msg/detail/u_int16__functions.o: \
  /Users/liusongran/MyProject/STM32_uROS/Middleware/include/rosidl_runtime_c/visibility_control.h \
  /Users/liusongran/MyProject/STM32_uROS/Middleware/include/std_msgs/msg/rosidl_generator_c__visibility_control.h \
  /Users/liusongran/MyProject/STM32_uROS/Middleware/include/std_msgs/msg/detail/u_int16__struct.h
-
 /Users/liusongran/MyProject/STM32_uROS/Middleware/include/std_msgs/msg/detail/u_int16__functions.h:
-
 /Users/liusongran/MyProject/STM32_uROS/Middleware/include/rosidl_runtime_c/visibility_control.h:
-
 /Users/liusongran/MyProject/STM32_uROS/Middleware/include/std_msgs/msg/rosidl_generator_c__visibility_control.h:
-
 /Users/liusongran/MyProject/STM32_uROS/Middleware/include/std_msgs/msg/detail/u_int16__struct.h:

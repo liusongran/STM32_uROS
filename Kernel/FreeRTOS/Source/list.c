@@ -26,17 +26,16 @@
  */
 
 
-#include "list.h"
-
 #include <stdlib.h>
-
 #include "FreeRTOS.h"
+#include "list.h"
 
 /*-----------------------------------------------------------
  * PUBLIC LIST API documented in list.h
  *----------------------------------------------------------*/
 
-void vListInitialise( List_t * const pxList ) {
+void vListInitialise( List_t * const pxList )
+{
 	/* The list structure contains a list item which is used to mark the
 	end of the list.  To initialise the list the list end is inserted
 	as the only list entry. */
@@ -196,4 +195,3 @@ List_t * const pxList = pxItemToRemove->pxContainer;
 	return pxList->uxNumberOfItems;
 }
 /*-----------------------------------------------------------*/
-

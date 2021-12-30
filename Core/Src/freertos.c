@@ -19,9 +19,9 @@
 /* USER CODE END Header */
 
 /* Includes ------------------------------------------------------------------*/
+#include "FreeRTOS.h"
+#include "task.h"
 #include "main.h"
-#include "../../kernel1/FreeRTOS/Source/include/FreeRTOS.h"
-#include "../../kernel1/FreeRTOS/Source/include/task.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */     

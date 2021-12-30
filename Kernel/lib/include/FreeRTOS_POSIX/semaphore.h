@@ -34,8 +34,8 @@
 #define _FREERTOS_POSIX_SEMAPHORE_H_
 
 /* FreeRTOS+POSIX includes. */
-#include "FreeRTOS_POSIX_types.h"
 #include "FreeRTOS_POSIX/time.h"
+#include "FreeRTOS_POSIX_types.h"
 
 /**
  * @brief Semaphore type.

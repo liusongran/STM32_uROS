@@ -1,6 +1,6 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (9-2020-q2-update)
+# Toolchain: uROS_app
 ################################################################################
 
 ELF_SRCS := 
@@ -29,9 +29,32 @@ Kernel/FreeRTOS/Source \
 Kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F \
 Kernel/FreeRTOS/Source/portable/MemMang \
 Kernel/lib/FreeRTOS-Plus-POSIX/source \
+Middleware/eProsima/Micro-CDR \
+Middleware/eProsima/Micro-CDR/types \
+Middleware/eProsima/Micro-XRCE-DDS-Client/core/log \
+Middleware/eProsima/Micro-XRCE-DDS-Client/core/serialization \
+Middleware/eProsima/Micro-XRCE-DDS-Client/core/session \
+Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/stream \
+Middleware/eProsima/Micro-XRCE-DDS-Client/profile/matching \
+Middleware/eProsima/Micro-XRCE-DDS-Client/profile/multithread \
+Middleware/eProsima/Micro-XRCE-DDS-Client/profile/shared_memory \
+Middleware/eProsima/Micro-XRCE-DDS-Client/profile/transport/custom \
+Middleware/eProsima/Micro-XRCE-DDS-Client/profile/transport/serial \
+Middleware/eProsima/Micro-XRCE-DDS-Client/profile/transport/stream_framing \
+Middleware/eProsima/Micro-XRCE-DDS-Client/util \
 Middleware/include/builtin_interfaces/msg/detail \
 Middleware/include/micro_ros_msgs/msg/detail \
 Middleware/include/rcl_interfaces/msg/detail \
 Middleware/include/rcl_interfaces/srv/detail \
 Middleware/include/std_msgs/msg/detail \
+Middleware/micro_ros_utilities \
+Middleware/rcl \
+Middleware/rclc \
+Middleware/rcutils \
+Middleware/rcutils/testing \
+Middleware/rmw \
+Middleware/rmw_microxrcedds \
+Middleware/rmw_microxrcedds/rmw_microros \
+Middleware/rosidl_typesupport \
+Middleware/rosidl_typesupport_microxrcedds \
 
