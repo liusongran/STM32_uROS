@@ -123,8 +123,8 @@
 #ifndef CMSIS_OS_H_
 #define CMSIS_OS_H_
 
-#include "../../../../Kernel/FreeRTOS/Source/include/FreeRTOS.h"
-#include "../../../../Kernel/FreeRTOS/Source/include/task.h"
+#include "FreeRTOS.h"
+#include "task.h"
 
 #define RTOS_ID_n             ((tskKERNEL_VERSION_MAJOR << 16) | (tskKERNEL_VERSION_MINOR))
 #define RTOS_ID_s             ("FreeRTOS " tskKERNEL_VERSION_NUMBER)
@@ -152,7 +152,7 @@
 #define os_InRegs
 #endif
  
-#include "../../../../Kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h"
+#include "cmsis_os2.h"
  
 #ifdef  __cplusplus
 extern "C"

@@ -42,14 +42,14 @@ Purely for reasons of backward compatibility the old method is still valid, but
 to make it clear that new projects should not use it, support for the port
 specific constants has been moved into the deprecated_definitions.h header
 file. */
-#include "../../../../Kernel/FreeRTOS/Source/include/deprecated_definitions.h"
+#include "deprecated_definitions.h"
 
 /* If portENTER_CRITICAL is not defined then including deprecated_definitions.h
 did not result in a portmacro.h header file being included - and it should be
 included here.  In this case the path to the correct portmacro.h header file
 must be set in the compiler's include path. */
 #ifndef portENTER_CRITICAL
-	#include "../../../../Kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h"
+	#include "portmacro.h"
 #endif
 
 #if portBYTE_ALIGNMENT == 32

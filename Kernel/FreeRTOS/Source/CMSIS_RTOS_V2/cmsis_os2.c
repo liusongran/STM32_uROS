@@ -21,16 +21,16 @@
  *
  *---------------------------------------------------------------------------*/
 
-#include "../../../../Kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h"                  // ::CMSIS:RTOS2
+#include "cmsis_os2.h"                  // ::CMSIS:RTOS2
 
 #include <string.h>
 
 #include "cmsis_compiler.h"
 
-#include "../../../../Kernel/FreeRTOS/Source/include/event_groups.h"               // ARM.FreeRTOS::RTOS:Event Groups
-#include "../../../../Kernel/FreeRTOS/Source/include/FreeRTOS.h"                   // ARM.FreeRTOS::RTOS:Core
-#include "../../../../Kernel/FreeRTOS/Source/include/semphr.h"                     // ARM.FreeRTOS::RTOS:Core
-#include "../../../../Kernel/FreeRTOS/Source/include/task.h"                       // ARM.FreeRTOS::RTOS:Core
+#include "event_groups.h"               // ARM.FreeRTOS::RTOS:Event Groups
+#include "FreeRTOS.h"                   // ARM.FreeRTOS::RTOS:Core
+#include "semphr.h"                     // ARM.FreeRTOS::RTOS:Core
+#include "task.h"                       // ARM.FreeRTOS::RTOS:Core
 
 /*---------------------------------------------------------------------------*/
 #ifndef __ARM_ARCH_6M__

@@ -29,8 +29,8 @@
  */
 
 /* FreeRTOS+POSIX includes. */
-#include "../../../../Kernel/lib/FreeRTOS-Plus-POSIX/include/FreeRTOS_POSIX.h"
-#include "../../../../Kernel/lib/include/FreeRTOS_POSIX/sched.h"
+#include "FreeRTOS_POSIX.h"
+#include "FreeRTOS_POSIX/sched.h"
 
 /*-----------------------------------------------------------*/
 

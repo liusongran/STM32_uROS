@@ -37,7 +37,7 @@
 extern "C" {
 #endif
 
-#include "../../../../Kernel/FreeRTOS/Source/include/task.h"
+#include "task.h"
 
 /**
  * Type by which queues are referenced.  For example, a call to xQueueCreate()

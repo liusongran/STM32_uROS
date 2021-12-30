@@ -26,18 +26,17 @@
  */
 
 
-#include "../../../Kernel/FreeRTOS/Source/include/list.h"
+#include "list.h"
 
 #include <stdlib.h>
 
-#include "../../../Kernel/FreeRTOS/Source/include/FreeRTOS.h"
+#include "FreeRTOS.h"
 
 /*-----------------------------------------------------------
  * PUBLIC LIST API documented in list.h
  *----------------------------------------------------------*/
 
-void vListInitialise( List_t * const pxList )
-{
+void vListInitialise( List_t * const pxList ) {
 	/* The list structure contains a list item which is used to mark the
 	end of the list.  To initialise the list the list end is inserted
 	as the only list entry. */
