@@ -18,7 +18,6 @@ RM := rm -rf
 -include Middleware/rcutils/subdir.mk
 -include Middleware/rclc/subdir.mk
 -include Middleware/rcl/subdir.mk
--include Middleware/micro_ros_utilities/subdir.mk
 -include Middleware/include/std_msgs/msg/detail/subdir.mk
 -include Middleware/include/rcl_interfaces/srv/detail/subdir.mk
 -include Middleware/include/rcl_interfaces/msg/detail/subdir.mk

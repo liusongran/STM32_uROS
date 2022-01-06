@@ -47,7 +47,6 @@ Middleware/include/micro_ros_msgs/msg/detail \
 Middleware/include/rcl_interfaces/msg/detail \
 Middleware/include/rcl_interfaces/srv/detail \
 Middleware/include/std_msgs/msg/detail \
-Middleware/micro_ros_utilities \
 Middleware/rcl \
 Middleware/rclc \
 Middleware/rcutils \

@@ -1,4 +1,4 @@
-../Apps/ping_pong/app.c:39:6:ping_timer_callback	40	static
-../Apps/ping_pong/app.c:62:6:ping_subscription_callback	24	static
-../Apps/ping_pong/app.c:74:6:pong_subscription_callback	24	static
-../Apps/ping_pong/app.c:86:6:appMain	464	static
+../Apps/ping_pong/app.c:40:6:ping_timer_callback	40	static
+../Apps/ping_pong/app.c:63:6:ping_subscription_callback	24	static
+../Apps/ping_pong/app.c:75:6:pong_subscription_callback	24	static
+../Apps/ping_pong/app.c:87:6:appMain	464	static

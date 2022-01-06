@@ -7,6 +7,7 @@
 #include <time.h>
 #include "rcl/error_handling.h"
 #include "rcl/rcl.h"
+#include "rcl/publisher.h"
 #include "rcl/allocator.h"
 #include "rclc/executor.h"
 #include "rclc/rclc.h"
@@ -145,6 +146,7 @@ void appMain(void *argument)
 	while(1){
 		rclc_executor_spin_some(&executor, RCL_MS_TO_NS(10));
 		usleep(10000);
+
 	}
 
 	// Free resources

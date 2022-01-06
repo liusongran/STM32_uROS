@@ -50,7 +50,8 @@ Core/Src/microros_transports.o: ../Core/Src/microros_transports.c \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
- ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
+ /Users/liusongran/MyProject/STM32_uROS/Kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
 /Users/liusongran/MyProject/STM32_uROS/Middleware/include/uxr/client/transport.h:
 /Users/liusongran/MyProject/STM32_uROS/Middleware/include/uxr/client/config.h:
 /Users/liusongran/MyProject/STM32_uROS/Middleware/include/uxr/client/profile/transport/serial/serial_transport.h:
@@ -103,3 +104,4 @@ Core/Src/microros_transports.o: ../Core/Src/microros_transports.c \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h:
+/Users/liusongran/MyProject/STM32_uROS/Kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h:

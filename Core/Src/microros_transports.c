@@ -3,6 +3,7 @@
 #include "stm32f4xx_hal.h"
 #include "stm32f4xx_hal_dma.h"
 
+#include "cmsis_os2.h"
 #include <unistd.h>
 #include <stdio.h>
 #include <string.h>

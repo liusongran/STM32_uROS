@@ -1,4 +1,5 @@
 ../Middleware/rcl/wait.c:64:1:rcl_get_zero_initialized_wait_set	24	static
+../Middleware/rcl/wait.c:85:1:rcl_wait_set_is_valid	16	static
 ../Middleware/rcl/wait.c:91:1:__wait_set_clean_up	40	static
 ../Middleware/rcl/wait.c:103:1:rcl_wait_set_init	64	static
 ../Middleware/rcl/wait.c:189:1:rcl_wait_set_fini	24	static

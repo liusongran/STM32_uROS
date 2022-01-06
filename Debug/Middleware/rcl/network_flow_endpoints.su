@@ -1,3 +1,0 @@
-../Middleware/rcl/network_flow_endpoints.c:38:1:__validate_network_flow_endpoint_array	1048	static
-../Middleware/rcl/network_flow_endpoints.c:58:1:rcl_publisher_get_network_flow_endpoints	1056	static
-../Middleware/rcl/network_flow_endpoints.c:89:1:rcl_subscription_get_network_flow_endpoints	1056	static
