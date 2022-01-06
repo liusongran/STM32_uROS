@@ -1,2 +1,0 @@
-../Middleware/rcutils/time.c:32:1:rcutils_time_point_value_as_nanoseconds_string	32	static
-../Middleware/rcutils/time.c:50:1:rcutils_time_point_value_as_seconds_string	72	static

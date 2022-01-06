@@ -1,8 +1,0 @@
-../Middleware/rcl/init_options.c:30:1:rcl_get_zero_initialized_init_options	4	static
-../Middleware/rcl/init_options.c:38:1:rcl_init_options_init	96	static
-../Middleware/rcl/init_options.c:68:1:rcl_init_options_copy	1120	static
-../Middleware/rcl/init_options.c:130:1:rcl_init_options_fini	48	static
-../Middleware/rcl/init_options.c:146:1:rcl_init_options_get_domain_id	16	static
-../Middleware/rcl/init_options.c:156:1:rcl_init_options_set_domain_id	16	static
-../Middleware/rcl/init_options.c:165:1:rcl_init_options_get_rmw_init_options	16	static
-../Middleware/rcl/init_options.c:173:1:rcl_init_options_get_allocator	16	static

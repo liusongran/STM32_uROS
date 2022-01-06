@@ -1,8 +1,0 @@
-../Middleware/include/std_msgs/msg/detail/u_int64__functions.c:13:1:std_msgs__msg__UInt64__init	16	static
-../Middleware/include/std_msgs/msg/detail/u_int64__functions.c:23:1:std_msgs__msg__UInt64__fini	16	static
-../Middleware/include/std_msgs/msg/detail/u_int64__functions.c:32:1:std_msgs__msg__UInt64__create	16	static
-../Middleware/include/std_msgs/msg/detail/u_int64__functions.c:48:1:std_msgs__msg__UInt64__destroy	16	static
-../Middleware/include/std_msgs/msg/detail/u_int64__functions.c:58:1:std_msgs__msg__UInt64__Sequence__init	32	static
-../Middleware/include/std_msgs/msg/detail/u_int64__functions.c:93:1:std_msgs__msg__UInt64__Sequence__fini	24	static
-../Middleware/include/std_msgs/msg/detail/u_int64__functions.c:117:1:std_msgs__msg__UInt64__Sequence__create	24	static
-../Middleware/include/std_msgs/msg/detail/u_int64__functions.c:132:1:std_msgs__msg__UInt64__Sequence__destroy	16	static

@@ -1,4 +1,0 @@
-../Core/Src/microros_transports.c:18:6:freertos_serial_open	24	static
-../Core/Src/microros_transports.c:24:6:freertos_serial_close	24	static
-../Core/Src/microros_transports.c:30:8:freertos_serial_write	32	static
-../Core/Src/microros_transports.c:46:8:freertos_serial_read	32	static

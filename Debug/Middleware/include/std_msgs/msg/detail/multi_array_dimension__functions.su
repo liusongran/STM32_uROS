@@ -1,8 +1,0 @@
-../Middleware/include/std_msgs/msg/detail/multi_array_dimension__functions.c:17:1:std_msgs__msg__MultiArrayDimension__init	16	static
-../Middleware/include/std_msgs/msg/detail/multi_array_dimension__functions.c:33:1:std_msgs__msg__MultiArrayDimension__fini	16	static
-../Middleware/include/std_msgs/msg/detail/multi_array_dimension__functions.c:45:1:std_msgs__msg__MultiArrayDimension__create	16	static
-../Middleware/include/std_msgs/msg/detail/multi_array_dimension__functions.c:61:1:std_msgs__msg__MultiArrayDimension__destroy	16	static
-../Middleware/include/std_msgs/msg/detail/multi_array_dimension__functions.c:71:1:std_msgs__msg__MultiArrayDimension__Sequence__init	32	static
-../Middleware/include/std_msgs/msg/detail/multi_array_dimension__functions.c:106:1:std_msgs__msg__MultiArrayDimension__Sequence__fini	24	static
-../Middleware/include/std_msgs/msg/detail/multi_array_dimension__functions.c:130:1:std_msgs__msg__MultiArrayDimension__Sequence__create	24	static
-../Middleware/include/std_msgs/msg/detail/multi_array_dimension__functions.c:145:1:std_msgs__msg__MultiArrayDimension__Sequence__destroy	16	static

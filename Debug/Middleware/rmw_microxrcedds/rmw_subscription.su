@@ -1,6 +1,0 @@
-../Middleware/rmw_microxrcedds/rmw_subscription.c:37:1:rmw_init_subscription_allocation	24	static
-../Middleware/rmw_microxrcedds/rmw_subscription.c:50:1:rmw_fini_subscription_allocation	16	static
-../Middleware/rmw_microxrcedds/rmw_subscription.c:59:1:rmw_create_subscription	104	static
-../Middleware/rmw_microxrcedds/rmw_subscription.c:232:1:rmw_subscription_count_matched_publishers	72	static
-../Middleware/rmw_microxrcedds/rmw_subscription.c:275:1:rmw_subscription_get_actual_qos	24	static
-../Middleware/rmw_microxrcedds/rmw_subscription.c:288:1:rmw_destroy_subscription	40	static

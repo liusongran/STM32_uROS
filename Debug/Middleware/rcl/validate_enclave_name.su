@@ -1,3 +1,0 @@
-../Middleware/rcl/validate_enclave_name.c:31:1:rcl_validate_enclave_name	24	static
-../Middleware/rcl/validate_enclave_name.c:42:1:rcl_validate_enclave_name_with_size	304	static
-../Middleware/rcl/validate_enclave_name.c:128:1:rcl_enclave_name_validation_result_string	16	static

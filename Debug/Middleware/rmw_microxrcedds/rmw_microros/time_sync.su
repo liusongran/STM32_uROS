@@ -1,4 +1,0 @@
-../Middleware/rmw_microxrcedds/rmw_microros/time_sync.c:23:6:rmw_uros_epoch_synchronized	24	static
-../Middleware/rmw_microxrcedds/rmw_microros/time_sync.c:37:9:rmw_uros_epoch_millis	24	static
-../Middleware/rmw_microxrcedds/rmw_microros/time_sync.c:52:9:rmw_uros_epoch_nanos	24	static
-../Middleware/rmw_microxrcedds/rmw_microros/time_sync.c:67:11:rmw_uros_sync_session	32	static

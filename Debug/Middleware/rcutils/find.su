@@ -1,4 +1,0 @@
-../Middleware/rcutils/find.c:29:1:rcutils_find	16	static
-../Middleware/rcutils/find.c:38:1:rcutils_findn	32	static
-../Middleware/rcutils/find.c:53:1:rcutils_find_last	16	static
-../Middleware/rcutils/find.c:62:1:rcutils_find_lastn	32	static

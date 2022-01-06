@@ -1,2 +1,0 @@
-../Middleware/rcutils/snprintf.c:30:1:rcutils_snprintf	24	static
-../Middleware/rcutils/snprintf.c:40:1:rcutils_vsnprintf	32	static

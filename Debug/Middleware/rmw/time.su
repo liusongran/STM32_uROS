@@ -1,4 +1,0 @@
-../Middleware/rmw/time.c:22:1:rmw_time_equal	32	static
-../Middleware/rmw/time.c:30:1:rmw_time_total_nsec	56	static
-../Middleware/rmw/time.c:49:1:rmw_time_from_nsec	64	static
-../Middleware/rmw/time.c:65:1:rmw_time_normalize	16	static

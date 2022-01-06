@@ -1,4 +1,0 @@
-/Users/liusongran/MyProject/STM32_uROS/Middleware/include/rcutils/isalnum_no_locale.h:28:1:rcutils_isalnum_no_locale	16	static
-../Middleware/rcl/validate_topic_name.c:30:1:rcl_validate_topic_name	24	static
-../Middleware/rcl/validate_topic_name.c:41:1:rcl_validate_topic_name_with_size	40	static
-../Middleware/rcl/validate_topic_name.c:203:1:rcl_topic_name_validation_result_string	16	static

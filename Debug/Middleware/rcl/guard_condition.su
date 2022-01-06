@@ -1,9 +1,0 @@
-../Middleware/rcl/guard_condition.c:37:1:rcl_get_zero_initialized_guard_condition	16	static
-../Middleware/rcl/guard_condition.c:47:1:__rcl_guard_condition_init_from_rmw_impl	40	static
-../Middleware/rcl/guard_condition.c:102:1:rcl_guard_condition_init	40	static
-../Middleware/rcl/guard_condition.c:112:1:rcl_guard_condition_init_from_rmw	48	static
-../Middleware/rcl/guard_condition.c:123:1:rcl_guard_condition_fini	48	static
-../Middleware/rcl/guard_condition.c:144:1:rcl_guard_condition_get_default_options	48	static
-../Middleware/rcl/guard_condition.c:153:1:rcl_trigger_guard_condition	24	static
-../Middleware/rcl/guard_condition.c:168:1:rcl_guard_condition_get_options	16	static
-../Middleware/rcl/guard_condition.c:180:1:rcl_guard_condition_get_rmw_handle	24	static

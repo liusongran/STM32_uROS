@@ -1,8 +1,0 @@
-../Middleware/include/micro_ros_msgs/msg/detail/node__functions.c:20:1:micro_ros_msgs__msg__Node__init	16	static
-../Middleware/include/micro_ros_msgs/msg/detail/node__functions.c:44:1:micro_ros_msgs__msg__Node__fini	16	static
-../Middleware/include/micro_ros_msgs/msg/detail/node__functions.c:58:1:micro_ros_msgs__msg__Node__create	16	static
-../Middleware/include/micro_ros_msgs/msg/detail/node__functions.c:74:1:micro_ros_msgs__msg__Node__destroy	16	static
-../Middleware/include/micro_ros_msgs/msg/detail/node__functions.c:84:1:micro_ros_msgs__msg__Node__Sequence__init	32	static
-../Middleware/include/micro_ros_msgs/msg/detail/node__functions.c:119:1:micro_ros_msgs__msg__Node__Sequence__fini	24	static
-../Middleware/include/micro_ros_msgs/msg/detail/node__functions.c:143:1:micro_ros_msgs__msg__Node__Sequence__create	24	static
-../Middleware/include/micro_ros_msgs/msg/detail/node__functions.c:158:1:micro_ros_msgs__msg__Node__Sequence__destroy	16	static

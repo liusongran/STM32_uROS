@@ -1,3 +1,0 @@
-../Middleware/include/std_msgs/msg/detail/int8_multi_array__type_support.c:28:6:Int8MultiArray__rosidl_typesupport_introspection_c__Int8MultiArray_init_function	16	static
-../Middleware/include/std_msgs/msg/detail/int8_multi_array__type_support.c:37:6:Int8MultiArray__rosidl_typesupport_introspection_c__Int8MultiArray_fini_function	16	static
-../Middleware/include/std_msgs/msg/detail/int8_multi_array__type_support.c:95:1:rosidl_typesupport_introspection_c__get_message_type_support_handle__std_msgs__msg__Int8MultiArray	8	static

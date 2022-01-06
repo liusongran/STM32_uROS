@@ -1,9 +1,0 @@
-../Middleware/rcl/remap.c:32:1:rcl_get_zero_initialized_remap	4	static
-../Middleware/rcl/remap.c:41:1:rcl_remap_copy	56	static
-../Middleware/rcl/remap.c:104:1:_rcl_remap_first_match	88	static
-../Middleware/rcl/remap.c:162:1:_rcl_remap_name	104	static
-../Middleware/rcl/remap.c:229:1:rcl_remap_topic_name	88	static
-../Middleware/rcl/remap.c:259:1:rcl_remap_service_name	88	static
-../Middleware/rcl/remap.c:289:1:rcl_remap_node_name	72	static
-../Middleware/rcl/remap.c:308:1:rcl_remap_node_namespace	72	static
-../Middleware/rcl/remap.c:327:1:rcl_remap_fini	24	static

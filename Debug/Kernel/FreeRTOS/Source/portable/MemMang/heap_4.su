@@ -1,2 +1,0 @@
-../Kernel/FreeRTOS/Source/portable/MemMang/heap_4.c:311:13:prvHeapInit	24	static
-../Kernel/FreeRTOS/Source/portable/MemMang/heap_4.c:359:13:prvInsertBlockIntoFreeList	24	static

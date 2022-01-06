@@ -1,2 +1,0 @@
-../Kernel/lib/FreeRTOS-Plus-POSIX/source/FreeRTOS_POSIX_unistd.c:37:10:sleep	16	static
-../Kernel/lib/FreeRTOS-Plus-POSIX/source/FreeRTOS_POSIX_unistd.c:46:5:usleep	16	static

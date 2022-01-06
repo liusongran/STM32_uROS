@@ -1,9 +1,0 @@
-../Middleware/rmw_microxrcedds/rmw_publisher.c:39:1:rmw_init_publisher_allocation	24	static
-../Middleware/rmw_microxrcedds/rmw_publisher.c:52:1:rmw_fini_publisher_allocation	16	static
-../Middleware/rmw_microxrcedds/rmw_publisher.c:61:1:rmw_create_publisher	88	static
-../Middleware/rmw_microxrcedds/rmw_publisher.c:228:1:rmw_publisher_count_matched_subscriptions	72	static
-../Middleware/rmw_microxrcedds/rmw_publisher.c:271:1:rmw_publisher_assert_liveliness	16	static
-../Middleware/rmw_microxrcedds/rmw_publisher.c:280:1:rmw_publisher_get_actual_qos	24	static
-../Middleware/rmw_microxrcedds/rmw_publisher.c:293:1:rmw_borrow_loaned_message	24	static
-../Middleware/rmw_microxrcedds/rmw_publisher.c:307:1:rmw_return_loaned_message_from_publisher	16	static
-../Middleware/rmw_microxrcedds/rmw_publisher.c:319:1:rmw_destroy_publisher	40	static

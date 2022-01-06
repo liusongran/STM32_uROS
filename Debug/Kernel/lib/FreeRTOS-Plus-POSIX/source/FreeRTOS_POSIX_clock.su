@@ -1,8 +1,0 @@
-../Kernel/lib/FreeRTOS-Plus-POSIX/source/FreeRTOS_POSIX_clock.c:50:9:clock	4	static
-../Kernel/lib/FreeRTOS-Plus-POSIX/source/FreeRTOS_POSIX_clock.c:59:5:clock_getcpuclockid	16	static
-../Kernel/lib/FreeRTOS-Plus-POSIX/source/FreeRTOS_POSIX_clock.c:72:5:clock_getres	16	static
-../Kernel/lib/FreeRTOS-Plus-POSIX/source/FreeRTOS_POSIX_clock.c:90:5:clock_gettime	88	static
-../Kernel/lib/FreeRTOS-Plus-POSIX/source/FreeRTOS_POSIX_clock.c:122:5:clock_nanosleep	56	static
-../Kernel/lib/FreeRTOS-Plus-POSIX/source/FreeRTOS_POSIX_clock.c:196:5:clock_settime	16	static
-../Kernel/lib/FreeRTOS-Plus-POSIX/source/FreeRTOS_POSIX_clock.c:212:5:nanosleep	24	static
-../Kernel/lib/FreeRTOS-Plus-POSIX/source/FreeRTOS_POSIX_clock.c:243:8:time	40	static

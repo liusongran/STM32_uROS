@@ -1,3 +1,0 @@
-../Middleware/include/builtin_interfaces/msg/detail/time__type_support.c:20:6:Time__rosidl_typesupport_introspection_c__Time_init_function	16	static
-../Middleware/include/builtin_interfaces/msg/detail/time__type_support.c:29:6:Time__rosidl_typesupport_introspection_c__Time_fini_function	16	static
-../Middleware/include/builtin_interfaces/msg/detail/time__type_support.c:87:1:rosidl_typesupport_introspection_c__get_message_type_support_handle__builtin_interfaces__msg__Time	4	static

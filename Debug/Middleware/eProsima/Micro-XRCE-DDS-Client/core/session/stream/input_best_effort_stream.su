@@ -1,3 +1,0 @@
-../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/stream/input_best_effort_stream.c:8:6:uxr_init_input_best_effort_stream	16	static
-../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/stream/input_best_effort_stream.c:16:6:uxr_reset_input_best_effort_stream	16	static
-../Middleware/eProsima/Micro-XRCE-DDS-Client/core/session/stream/input_best_effort_stream.c:22:6:uxr_receive_best_effort_message	24	static

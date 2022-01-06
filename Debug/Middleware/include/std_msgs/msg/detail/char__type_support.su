@@ -1,3 +1,0 @@
-../Middleware/include/std_msgs/msg/detail/char__type_support.c:20:6:Char__rosidl_typesupport_introspection_c__Char_init_function	16	static
-../Middleware/include/std_msgs/msg/detail/char__type_support.c:29:6:Char__rosidl_typesupport_introspection_c__Char_fini_function	16	static
-../Middleware/include/std_msgs/msg/detail/char__type_support.c:72:1:rosidl_typesupport_introspection_c__get_message_type_support_handle__std_msgs__msg__Char	4	static

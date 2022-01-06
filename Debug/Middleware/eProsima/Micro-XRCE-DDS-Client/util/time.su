@@ -1,2 +1,0 @@
-../Middleware/eProsima/Micro-XRCE-DDS-Client/util/time.c:15:9:uxr_millis	8	static
-../Middleware/eProsima/Micro-XRCE-DDS-Client/util/time.c:21:9:uxr_nanos	48	static

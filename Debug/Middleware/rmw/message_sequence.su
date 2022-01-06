@@ -1,6 +1,0 @@
-../Middleware/rmw/message_sequence.c:19:1:rmw_get_zero_initialized_message_sequence	16	static
-../Middleware/rmw/message_sequence.c:32:1:rmw_message_sequence_init	32	static
-../Middleware/rmw/message_sequence.c:57:1:rmw_message_sequence_fini	16	static
-../Middleware/rmw/message_sequence.c:76:1:rmw_get_zero_initialized_message_info_sequence	16	static
-../Middleware/rmw/message_sequence.c:89:1:rmw_message_info_sequence_init	40	static
-../Middleware/rmw/message_sequence.c:113:1:rmw_message_info_sequence_fini	16	static

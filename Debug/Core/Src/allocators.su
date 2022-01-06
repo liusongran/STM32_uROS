@@ -1,4 +1,0 @@
-../Core/Src/allocators.c:6:8:__freertos_allocate	16	static
-../Core/Src/allocators.c:14:6:__freertos_deallocate	16	static
-../Core/Src/allocators.c:23:8:__freertos_reallocate	24	static
-../Core/Src/allocators.c:39:8:__freertos_zero_allocate	24	static

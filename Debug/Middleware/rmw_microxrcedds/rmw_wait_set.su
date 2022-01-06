@@ -1,2 +1,0 @@
-../Middleware/rmw_microxrcedds/rmw_wait_set.c:22:1:rmw_create_wait_set	24	static
-../Middleware/rmw_microxrcedds/rmw_wait_set.c:40:1:rmw_destroy_wait_set	24	static

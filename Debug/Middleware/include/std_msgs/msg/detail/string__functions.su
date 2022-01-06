@@ -1,8 +1,0 @@
-../Middleware/include/std_msgs/msg/detail/string__functions.c:17:1:std_msgs__msg__String__init	16	static
-../Middleware/include/std_msgs/msg/detail/string__functions.c:31:1:std_msgs__msg__String__fini	16	static
-../Middleware/include/std_msgs/msg/detail/string__functions.c:41:1:std_msgs__msg__String__create	16	static
-../Middleware/include/std_msgs/msg/detail/string__functions.c:57:1:std_msgs__msg__String__destroy	16	static
-../Middleware/include/std_msgs/msg/detail/string__functions.c:67:1:std_msgs__msg__String__Sequence__init	32	static
-../Middleware/include/std_msgs/msg/detail/string__functions.c:102:1:std_msgs__msg__String__Sequence__fini	24	static
-../Middleware/include/std_msgs/msg/detail/string__functions.c:126:1:std_msgs__msg__String__Sequence__create	24	static
-../Middleware/include/std_msgs/msg/detail/string__functions.c:141:1:std_msgs__msg__String__Sequence__destroy	16	static

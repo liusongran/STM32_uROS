@@ -1,4 +1,0 @@
-../Middleware/rmw_microxrcedds/callbacks.c:18:6:on_status	24	static
-../Middleware/rmw_microxrcedds/callbacks.c:32:6:on_topic	128	static
-../Middleware/rmw_microxrcedds/callbacks.c:112:6:on_request	120	static
-../Middleware/rmw_microxrcedds/callbacks.c:173:6:on_reply	128	static

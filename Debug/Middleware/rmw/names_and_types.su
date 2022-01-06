@@ -1,4 +1,0 @@
-../Middleware/rmw/names_and_types.c:25:1:rmw_get_zero_initialized_names_and_types	56	static
-../Middleware/rmw/names_and_types.c:36:1:rmw_names_and_types_check_zero	16	static
-../Middleware/rmw/names_and_types.c:56:1:rmw_names_and_types_init	32	static
-../Middleware/rmw/names_and_types.c:91:1:rmw_names_and_types_fini	24	static

@@ -1,2 +1,0 @@
-../Middleware/rmw_microxrcedds/rmw_request.c:23:1:rmw_send_request	104	static
-../Middleware/rmw_microxrcedds/rmw_request.c:67:1:rmw_take_request	104	static
